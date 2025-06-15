@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Albañilería",
     "descripcion": "Prácticas sobre armado de mezclas, levantado de muros, revoques gruesos y finos. Incluye lectura de planos básicos y uso seguro de herramientas manuales y eléctricas.",
-    "imagen": "assets/img/albañilería.jpg",
+    "imagen": "assets/img/cursos/albañilería.jpg",
     "localidades": [
       "Carmen",
       "San Salvador de Jujuy",
@@ -12,212 +12,256 @@
       "Rodeíto"
     ],
     "formulario": "https://forms.gle/inscripcion-albañilería",
-    "fecha_inicio": "2025-06-23"
+    "fecha_inicio": "2025-06-23",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 2,
     "titulo": "Albañilería Para Mujer",
     "descripcion": "Mismo contenido de albañilería, orientado a mujeres: enfoque en ergonomía, uso de herramientas livianas y empoderamiento en obras.",
-    "imagen": "assets/img/albañilería_para_mujer.jpg",
+    "imagen": "assets/img/cursos/albañilería_para_mujer.jpg",
     "localidades": [
       "San Salvador de Jujuy",
       "Perico"
     ],
     "formulario": "https://forms.gle/inscripcion-albañileríaparamujer",
-    "fecha_inicio": "2025-06-19"
+    "fecha_inicio": "2025-06-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 3,
     "titulo": "Alta Costura",
     "descripcion": "El curso de Alta Costura brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de alta costura. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/alta_costura.jpg",
+    "imagen": "assets/img/cursos/alta_costura.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-altacostura",
-    "fecha_inicio": "2025-06-26"
+    "fecha_inicio": "2025-06-26",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 4,
     "titulo": "Amigurumi",
     "descripcion": "El curso de Amigurumi brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de amigurumi. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Aprendé a tejer pequeños muñecos de peluche utilizando técnicas de crochet japonés. Ideal para emprendimientos textiles o regalos personalizados.",
-    "imagen": "assets/img/amigurumi.jpg",
+    "imagen": "assets/img/cursos/amigurumi.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-amigurumi",
-    "fecha_inicio": "2025-06-12"
+    "fecha_inicio": "2025-06-12",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 5,
     "titulo": "Amolador",
     "descripcion": "El curso de Amolador brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de amolador. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/amolador.jpg",
+    "imagen": "assets/img/cursos/amolador.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-amolador",
-    "fecha_inicio": "2025-06-27"
+    "fecha_inicio": "2025-06-27",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 6,
     "titulo": "Arreglo De Aire Acondicionado",
     "descripcion": "El curso de Arreglo De Aire Acondicionado brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de arreglo de aire acondicionado. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/arreglo_de_aire_acondicionado.jpg",
+    "imagen": "assets/img/cursos/arreglo_de_aire_acondicionado.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-arreglodeaireacondicionado",
-    "fecha_inicio": "2025-06-18"
+    "fecha_inicio": "2025-06-18",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 7,
     "titulo": "Arte En Chala Y Palma",
     "descripcion": "El curso de Arte En Chala Y Palma brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de arte en chala y palma. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/arte_en_chala_y_palma.jpg",
+    "imagen": "assets/img/cursos/arte_en_chala_y_palma.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-arteenchalaypalma",
-    "fecha_inicio": "2025-06-14"
+    "fecha_inicio": "2025-06-14",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 8,
     "titulo": "Artesanías",
     "descripcion": "El curso de Artesanías brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de artesanías. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/artesanías.jpg",
+    "imagen": "assets/img/cursos/artesanías.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-artesanías",
-    "fecha_inicio": "2025-06-16"
+    "fecha_inicio": "2025-06-16",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 9,
     "titulo": "Artesanías Navideñas",
     "descripcion": "El curso de Artesanías Navideñas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de artesanías navideñas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/artesanías_navideñas.jpg",
+    "imagen": "assets/img/cursos/artesanías_navideñas.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-artesaníasnavideñas",
-    "fecha_inicio": "2025-06-12"
+    "fecha_inicio": "2025-06-12",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 10,
     "titulo": "Artesanías Religiosas",
     "descripcion": "El curso de Artesanías Religiosas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de artesanías religiosas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/artesanías_religiosas.jpg",
+    "imagen": "assets/img/cursos/artesanías_religiosas.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-artesaníasreligiosas",
-    "fecha_inicio": "2025-07-14"
+    "fecha_inicio": "2025-07-14",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 11,
     "titulo": "Atención Al Cliente",
     "descripcion": "El curso de Atención Al Cliente brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de atención al cliente. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/atención_al_cliente.jpg",
+    "imagen": "assets/img/cursos/atención_al_cliente.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-atenciónalcliente",
-    "fecha_inicio": "2025-06-14"
+    "fecha_inicio": "2025-06-14",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 12,
     "titulo": "Ayudante De Cocina",
     "descripcion": "Formación integral para trabajar en cocinas profesionales: mise en place, cortes clásicos, control de desperdicios y BPM.",
-    "imagen": "assets/img/ayudante_de_cocina.jpg",
+    "imagen": "assets/img/cursos/ayudante_de_cocina.jpg",
     "localidades": [
       "San Salvador de Jujuy",
       "Libertador General San Martín"
     ],
     "formulario": "https://forms.gle/inscripcion-ayudantedecocina",
-    "fecha_inicio": "2025-06-11"
+    "fecha_inicio": "2025-06-11",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 13,
     "titulo": "Ayudante De Panadero",
     "descripcion": "Introducción a masas básicas: pan francés, saborizados y facturas. Manejo de amasadora, fermentación y horneado en hornos industriales.",
-    "imagen": "assets/img/ayudante_de_panadero.jpg",
+    "imagen": "assets/img/cursos/ayudante_de_panadero.jpg",
     "localidades": [
       "San Salvador de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-ayudantedepanadero",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 14,
     "titulo": "Barista Cafetero",
     "descripcion": "Dominá la extracción de espresso, calibración de molino y vaporización de leche para latte art. Historia del café y perfiles de tueste.",
-    "imagen": "assets/img/barista_cafetero.jpg",
+    "imagen": "assets/img/cursos/barista_cafetero.jpg",
     "localidades": [
       "Libertador General San Martín"
     ],
     "formulario": "https://forms.gle/inscripcion-baristacafetero",
-    "fecha_inicio": "2025-06-15"
+    "fecha_inicio": "2025-06-15",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 15,
     "titulo": "Bordado Chino",
     "descripcion": "El curso de Bordado Chino brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de bordado chino. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/bordado_chino.jpg",
+    "imagen": "assets/img/cursos/bordado_chino.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-bordadochino",
-    "fecha_inicio": "2025-07-18"
+    "fecha_inicio": "2025-07-18",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 16,
     "titulo": "Carpintería",
     "descripcion": "El curso de Carpintería brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de carpintería. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/carpintería.jpg",
+    "imagen": "assets/img/cursos/carpintería.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-carpintería",
-    "fecha_inicio": "2025-07-02"
+    "fecha_inicio": "2025-07-02",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 17,
     "titulo": "Carpintería Básica",
     "descripcion": "Uso de herramientas manuales (garlopa, formón) y eléctricas (sierra circular). Fabricarás taburetes y estanterías simples con ensambles encastrados.",
-    "imagen": "assets/img/carpintería_básica.jpg",
+    "imagen": "assets/img/cursos/carpintería_básica.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-carpinteríabásica",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 18,
     "titulo": "Cañista",
     "descripcion": "El curso de Cañista brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de cañista. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/cañista.jpg",
+    "imagen": "assets/img/cursos/cañista.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-cañista",
-    "fecha_inicio": "2025-06-29"
+    "fecha_inicio": "2025-06-29",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 19,
     "titulo": "Cena Navideña",
     "descripcion": "El curso de Cena Navideña brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de cena navideña. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/cena_navideña.jpg",
+    "imagen": "assets/img/cursos/cena_navideña.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-cenanavideña",
-    "fecha_inicio": "2025-06-22"
+    "fecha_inicio": "2025-06-22",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 20,
     "titulo": "Chacinado",
     "descripcion": "El curso de Chacinado brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de chacinado. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/chacinado.jpg",
+    "imagen": "assets/img/cursos/chacinado.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-chacinado",
-    "fecha_inicio": "2025-07-15"
+    "fecha_inicio": "2025-07-15",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 21,
     "titulo": "Cocina Semana Santa",
     "descripcion": "El curso de Cocina Semana Santa brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de cocina semana santa. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/cocina_semana_santa.jpg",
+    "imagen": "assets/img/cursos/cocina_semana_santa.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-cocinasemanasanta",
-    "fecha_inicio": "2025-06-20"
+    "fecha_inicio": "2025-06-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 22,
     "titulo": "Comercio Electrónico",
     "descripcion": "El curso de Comercio Electrónico brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de comercio electrónico. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/comercio_electrónico.jpg",
+    "imagen": "assets/img/cursos/comercio_electrónico.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-comercioelectrónico",
-    "fecha_inicio": "2025-06-26"
+    "fecha_inicio": "2025-06-26",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 23,
     "titulo": "Construcción En Seco",
     "descripcion": "Aprenderás a instalar sistemas de placas de yeso (Durlock), tabiques divisorios, cielorrasos y revestimientos. Incluye cálculo de estructura metálica, aislaciones y terminaciones listos para pintura.",
-    "imagen": "assets/img/construcción_en_seco.jpg",
+    "imagen": "assets/img/cursos/construcción_en_seco.jpg",
     "localidades": [
       "Carmen",
       "Monterrico",
@@ -228,90 +272,76 @@
       "Arrayanal"
     ],
     "formulario": "https://forms.gle/inscripcion-construcciónenseco",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 24,
     "titulo": "Creativate Día Del Animal",
     "descripcion": "El curso de Creativate Día Del Animal brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de creativate día del animal. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/creativate_día_del_animal.jpg",
+    "imagen": "assets/img/cursos/creativate_día_del_animal.jpg",
     "localidades": [
       "Yala",
       "Volcán"
     ],
     "formulario": "https://forms.gle/inscripcion-creativatedíadelanimal",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 25,
     "titulo": "Creativate Pascuas",
     "descripcion": "El curso de Creativate Pascuas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de creativate pascuas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/creativate_pascuas.jpg",
+    "imagen": "assets/img/cursos/creativate_pascuas.jpg",
     "localidades": [
       "Yala",
       "Pampa Blanca"
     ],
     "formulario": "https://forms.gle/inscripcion-creativatepascuas",
-    "fecha_inicio": "2025-06-18"
+    "fecha_inicio": "2025-06-18",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 26,
     "titulo": "Cuidador Domiciliario",
     "descripcion": "El curso de Cuidador Domiciliario brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de cuidador domiciliario. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/cuidador_domiciliario.jpg",
+    "imagen": "assets/img/cursos/cuidador_domiciliario.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-cuidadordomiciliario",
-    "fecha_inicio": "2025-06-21"
+    "fecha_inicio": "2025-06-21",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 27,
     "titulo": "Drones",
     "descripcion": "El curso de Drones brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de drones. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/drones.jpg",
+    "imagen": "assets/img/cursos/drones.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-drones",
-    "fecha_inicio": "2025-06-11"
-  },
-  {
-    "id": 28,
-    "titulo": "Ecomece",
-    "descripcion": "El curso de Ecomece brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de ecomece. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/ecomece.jpg",
-    "localidades": [],
-    "formulario": "https://forms.gle/inscripcion-ecomece",
-    "fecha_inicio": "2025-07-08"
+    "fecha_inicio": "2025-06-11",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 29,
     "titulo": "Electricidad",
     "descripcion": "El curso de Electricidad brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de electricidad. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Incluye prácticas sobre circuitos eléctricos, uso de herramientas y normativas de seguridad eléctrica.",
-    "imagen": "assets/img/electricidad.jpg",
+    "imagen": "assets/img/cursos/electricidad.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-electricidad",
-    "fecha_inicio": "2025-06-15"
-  },
-  {
-    "id": 30,
-    "titulo": "Electricidad Domiciliaria",
-    "descripcion": "Curso práctico sobre instalaciones eléctricas del hogar: cálculo de secciones de cable, tableros con disyuntor y térmica, puesta a tierra y detección de fallas con tester. Ideal para mantenimiento y obras nuevas.",
-    "imagen": "assets/img/electricidad_domiciliaria.jpg",
-    "localidades": [
-      "Monterrico",
-      "San Salvador de Jujuy",
-      "Rodeíto",
-      "La Esperanza",
-      "Moreno",
-      "Huancar",
-      "Olaroz"
-    ],
-    "formulario": "https://forms.gle/inscripcion-electricidaddomiciliaria",
-    "fecha_inicio": "2025-07-15"
+    "fecha_inicio": "2025-06-15",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 31,
     "titulo": "Herrería",
     "descripcion": "Dominarás soldadura básica y corte con amoladora, fabricación de parrillas, rejas y muebles metálicos. Incluye normas de seguridad, manejo de herramientas eléctricas y técnicas de tratamiento anticorrosivo.",
-    "imagen": "assets/img/herrería.jpg",
+    "imagen": "assets/img/cursos/herrería.jpg",
     "localidades": [
       "Carmen",
       "San Salvador de Jujuy",
@@ -325,40 +355,48 @@
       "San Pedro de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-herrería",
-    "fecha_inicio": "2025-07-07"
+    "fecha_inicio": "2025-07-07",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 32,
     "titulo": "Hidrogrúa E Hidroelevador",
     "descripcion": "El curso de Hidrogrúa E Hidroelevador brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de hidrogrúa e hidroelevador. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/hidrogrúa_e_hidroelevador.jpg",
+    "imagen": "assets/img/cursos/hidrogrúa_e_hidroelevador.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-hidrogrúaehidroelevador",
-    "fecha_inicio": "2025-06-19"
+    "fecha_inicio": "2025-06-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 33,
     "titulo": "Higiene Y Seguridad",
     "descripcion": "El curso de Higiene Y Seguridad brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de higiene y seguridad. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/higiene_y_seguridad.jpg",
+    "imagen": "assets/img/cursos/higiene_y_seguridad.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-higieneyseguridad",
-    "fecha_inicio": "2025-06-13"
+    "fecha_inicio": "2025-06-13",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 34,
     "titulo": "Hotelería",
     "descripcion": "El curso de Hotelería brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de hotelería. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/hotelería.jpg",
+    "imagen": "assets/img/cursos/hotelería.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-hotelería",
-    "fecha_inicio": "2025-06-12"
+    "fecha_inicio": "2025-06-12",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 35,
     "titulo": "Indumentaria",
     "descripcion": "Te introducirás en patronaje básico, corte y costura con máquina recta y overlock. Diseñarás prendas simples y aprenderás ajustes para diferentes talles.",
-    "imagen": "assets/img/indumentaria.jpg",
+    "imagen": "assets/img/cursos/indumentaria.jpg",
     "localidades": [
       "Carmen",
       "San Antonio",
@@ -369,13 +407,15 @@
       "San Pedro de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-indumentaria",
-    "fecha_inicio": "2025-07-20"
+    "fecha_inicio": "2025-07-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 36,
     "titulo": "Indumentaria Carnavalera",
     "descripcion": "El curso de Indumentaria Carnavalera brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de indumentaria carnavalera. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Incluye corte, confección y diseño de ropa o disfraces, aplicable a mascotas, carnaval y uso diario.",
-    "imagen": "assets/img/indumentaria_carnavalera.jpg",
+    "imagen": "assets/img/cursos/indumentaria_carnavalera.jpg",
     "localidades": [
       "Carmen",
       "San Antonio",
@@ -386,30 +426,15 @@
       "San Pedro de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-indumentariacarnavalera",
-    "fecha_inicio": "2025-07-06"
-  },
-  {
-    "id": 37,
-    "titulo": "Indumentaria De Verano",
-    "descripcion": "El curso de Indumentaria De Verano brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de indumentaria de verano. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Incluye corte, confección y diseño de ropa o disfraces, aplicable a mascotas, carnaval y uso diario.",
-    "imagen": "assets/img/indumentaria_de_verano.jpg",
-    "localidades": [
-      "Carmen",
-      "San Antonio",
-      "San Salvador de Jujuy",
-      "Perico",
-      "Yala",
-      "Volcán",
-      "San Pedro de Jujuy"
-    ],
-    "formulario": "https://forms.gle/inscripcion-indumentariadeverano",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-06",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 38,
     "titulo": "Indumentaria Para Mascotas",
     "descripcion": "El curso de Indumentaria Para Mascotas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de indumentaria para mascotas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Incluye corte, confección y diseño de ropa o disfraces, aplicable a mascotas, carnaval y uso diario.",
-    "imagen": "assets/img/indumentaria_para_mascotas.jpg",
+    "imagen": "assets/img/cursos/indumentaria_para_mascotas.jpg",
     "localidades": [
       "Carmen",
       "San Antonio",
@@ -420,70 +445,59 @@
       "San Pedro de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-indumentariaparamascotas",
-    "fecha_inicio": "2025-06-20"
+    "fecha_inicio": "2025-06-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 39,
     "titulo": "Inglés Turístico",
     "descripcion": "El curso de Inglés Turístico brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de inglés turístico. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/inglés_turístico.jpg",
+    "imagen": "assets/img/cursos/inglés_turístico.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-inglésturístico",
-    "fecha_inicio": "2025-06-17"
-  },
-  {
-    "id": 40,
-    "titulo": "Lencería Deportiva",
-    "descripcion": "El curso de Lencería Deportiva brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de lencería deportiva. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/lencería_deportiva.jpg",
-    "localidades": [],
-    "formulario": "https://forms.gle/inscripcion-lenceríadeportiva",
-    "fecha_inicio": "2025-07-03"
+    "fecha_inicio": "2025-06-17",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 41,
     "titulo": "Mantenimiento De Jardines",
     "descripcion": "Podado, siembra y fertilización. Manejo de herramientas como motosierra y bordeadora, y diseño de espacios verdes pequeños.",
-    "imagen": "assets/img/mantenimiento_de_jardines.jpg",
+    "imagen": "assets/img/cursos/mantenimiento_de_jardines.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-mantenimientodejardines",
-    "fecha_inicio": "2025-07-06"
+    "fecha_inicio": "2025-07-06",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 42,
     "titulo": "Marroquinería",
     "descripcion": "El curso de Marroquinería brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de marroquinería. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales. Confección de accesorios con cuero ecológico o materiales sintéticos, orientado a mascotas o moda urbana.",
-    "imagen": "assets/img/marroquinería.jpg",
+    "imagen": "assets/img/cursos/marroquinería.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-marroquinería",
-    "fecha_inicio": "2025-06-26"
-  },
-  {
-    "id": 43,
-    "titulo": "Marroquinería Para Mascota",
-    "descripcion": "Aprenderás a confeccionar correas, arneses y bolsos para mascotas utilizando cueros sintéticos. Incluye diseño, corte con plantillas y costura reforzada.",
-    "imagen": "assets/img/marroquinería_para_mascota.jpg",
-    "localidades": [
-      "San Salvador de Jujuy",
-      "Yala"
-    ],
-    "formulario": "https://forms.gle/inscripcion-marroquineríaparamascota",
-    "fecha_inicio": "2025-07-12"
+    "fecha_inicio": "2025-06-26",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 44,
     "titulo": "Mecánica De Bicicletas",
     "descripcion": "El curso de Mecánica De Bicicletas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de mecánica de bicicletas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/mecánica_de_bicicletas.jpg",
+    "imagen": "assets/img/cursos/mecánica_de_bicicletas.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-mecánicadebicicletas",
-    "fecha_inicio": "2025-07-03"
+    "fecha_inicio": "2025-07-03",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 45,
     "titulo": "Mecánica De Moto",
     "descripcion": "Diagnóstico y reparación de motores de 2 y 4 tiempos, sistema de embrague y frenos. Incluye ajuste de válvulas y mantenimiento preventivo.",
-    "imagen": "assets/img/mecánica_de_moto.jpg",
+    "imagen": "assets/img/cursos/mecánica_de_moto.jpg",
     "localidades": [
       "Perico",
       "San Pedro de Jujuy",
@@ -491,58 +505,70 @@
       "Rodeíto"
     ],
     "formulario": "https://forms.gle/inscripcion-mecánicademoto",
-    "fecha_inicio": "2025-06-19"
+    "fecha_inicio": "2025-06-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años y carnet habilitante"
   },
   {
     "id": 46,
     "titulo": "Mecánico De Tractor",
     "descripcion": "El curso de Mecánico De Tractor brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de mecánico de tractor. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/mecánico_de_tractor.jpg",
+    "imagen": "assets/img/cursos/mecánico_de_tractor.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-mecánicodetractor",
-    "fecha_inicio": "2025-07-13"
+    "fecha_inicio": "2025-07-13",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años y carnet habilitante"
   },
   {
     "id": 47,
     "titulo": "Mozo",
     "descripcion": "El curso de Mozo brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de mozo. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/mozo.jpg",
+    "imagen": "assets/img/cursos/mozo.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-mozo",
-    "fecha_inicio": "2025-07-16"
+    "fecha_inicio": "2025-07-16",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 48,
     "titulo": "Mucama",
     "descripcion": "El curso de Mucama brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de mucama. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/mucama.jpg",
+    "imagen": "assets/img/cursos/mucama.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-mucama",
-    "fecha_inicio": "2025-07-20"
+    "fecha_inicio": "2025-07-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 49,
     "titulo": "Máquinas Pesadas",
     "descripcion": "El curso de Máquinas Pesadas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de máquinas pesadas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/máquinas_pesadas.jpg",
+    "imagen": "assets/img/cursos/máquinas_pesadas.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-máquinaspesadas",
-    "fecha_inicio": "2025-06-20"
+    "fecha_inicio": "2025-06-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 50,
     "titulo": "Nuevas Tecnologías",
     "descripcion": "El curso de Nuevas Tecnologías brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de nuevas tecnologías. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/nuevas_tecnologías.jpg",
+    "imagen": "assets/img/cursos/nuevas_tecnologías.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-nuevastecnologías",
-    "fecha_inicio": "2025-07-18"
+    "fecha_inicio": "2025-07-18",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 51,
     "titulo": "Oratoria",
     "descripcion": "Técnicas de expresión verbal y corporal, estructura de discursos y control del miedo escénico. Ejercicios prácticos con feedback.",
-    "imagen": "assets/img/oratoria.jpg",
+    "imagen": "assets/img/cursos/oratoria.jpg",
     "localidades": [
       "Libertador General San Martín",
       "Moreno",
@@ -550,60 +576,72 @@
       "Olaroz"
     ],
     "formulario": "https://forms.gle/inscripcion-oratoria",
-    "fecha_inicio": "2025-07-20"
+    "fecha_inicio": "2025-07-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 52,
     "titulo": "Panadería Básica",
     "descripcion": "El curso de Panadería Básica brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de panadería básica. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/panadería_básica.jpg",
+    "imagen": "assets/img/cursos/panadería_básica.jpg",
     "localidades": [
       "Yala"
     ],
     "formulario": "https://forms.gle/inscripcion-panaderíabásica",
-    "fecha_inicio": "2025-06-17"
+    "fecha_inicio": "2025-06-17",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 53,
     "titulo": "Panadería Navideña",
     "descripcion": "El curso de Panadería Navideña brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de panadería navideña. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/panadería_navideña.jpg",
+    "imagen": "assets/img/cursos/panadería_navideña.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-panaderíanavideña",
-    "fecha_inicio": "2025-07-19"
+    "fecha_inicio": "2025-07-19",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 54,
     "titulo": "Pastelería",
     "descripcion": "El curso de Pastelería brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de pastelería. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/pastelería.jpg",
+    "imagen": "assets/img/cursos/pastelería.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-pastelería",
-    "fecha_inicio": "2025-06-20"
+    "fecha_inicio": "2025-06-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 55,
     "titulo": "Pastelería Infantil",
     "descripcion": "El curso de Pastelería Infantil brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de pastelería infantil. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/pastelería_infantil.jpg",
+    "imagen": "assets/img/cursos/pastelería_infantil.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-pasteleríainfantil",
-    "fecha_inicio": "2025-06-10"
+    "fecha_inicio": "2025-06-10",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 56,
     "titulo": "Plan De Negocios",
     "descripcion": "El curso de Plan De Negocios brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de plan de negocios. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/plan_de_negocios.jpg",
+    "imagen": "assets/img/cursos/plan_de_negocios.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-plandenegocios",
-    "fecha_inicio": "2025-07-02"
+    "fecha_inicio": "2025-07-02",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 57,
     "titulo": "Plomería",
     "descripcion": "Aprenderás a instalar cañerías de agua fría y caliente, cloacas y artefactos sanitarios. Incluye soldadura en PVC y PPR, diagnóstico de fugas y armado de presupuestos.",
-    "imagen": "assets/img/plomería.jpg",
+    "imagen": "assets/img/cursos/plomería.jpg",
     "localidades": [
       "Carmen",
       "San Antonio",
@@ -612,114 +650,127 @@
       "Perico"
     ],
     "formulario": "https://forms.gle/inscripcion-plomería",
-    "fecha_inicio": "2025-07-20"
+    "fecha_inicio": "2025-07-20",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 58,
     "titulo": "Porcelana Fría",
     "descripcion": "El curso de Porcelana Fría brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de porcelana fría. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/porcelana_fría.jpg",
+    "imagen": "assets/img/cursos/porcelana_fría.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-porcelanafría",
-    "fecha_inicio": "2025-07-15"
+    "fecha_inicio": "2025-07-15",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 59,
     "titulo": "Prevención De Estafas Electrónicas",
     "descripcion": "El curso de Prevención De Estafas Electrónicas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de prevención de estafas electrónicas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/prevención_de_estafas_electrónicas.jpg",
+    "imagen": "assets/img/cursos/prevención_de_estafas_electrónicas.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-prevencióndeestafaselectrónicas",
-    "fecha_inicio": "2025-07-18"
+    "fecha_inicio": "2025-07-18",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 60,
     "titulo": "Quesos",
     "descripcion": "El curso de Quesos brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de quesos. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/quesos.jpg",
+    "imagen": "assets/img/cursos/quesos.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-quesos",
-    "fecha_inicio": "2025-06-17"
+    "fecha_inicio": "2025-06-17",
+    "estado": "inscripcion_abierta",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 61,
     "titulo": "Reparación De Celulares",
     "descripcion": "Diagnóstico de fallas comunes, cambio de display, batería y soldadura de componentes SMD. Uso de estación de calor y multímetro.",
-    "imagen": "assets/img/reparación_de_celulares.jpg",
+    "imagen": "assets/img/cursos/reparación_de_celulares.jpg",
     "localidades": [
       "San Salvador de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-reparacióndecelulares",
-    "fecha_inicio": "2025-07-12"
+    "fecha_inicio": "2025-07-12",
+    "estado": "proximo",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 62,
     "titulo": "Reparación De Lavarropa",
     "descripcion": "Identificación y cambio de rulemanes, bombas y módulos electrónicos. Marca prueba automática y armado de presupuestos.",
-    "imagen": "assets/img/reparación_de_lavarropa.jpg",
+    "imagen": "assets/img/cursos/reparación_de_lavarropa.jpg",
     "localidades": [
       "San Salvador de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-reparacióndelavarropa",
-    "fecha_inicio": "2025-07-01"
+    "fecha_inicio": "2025-07-01",
+    "estado": "finalizado",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 63,
     "titulo": "Repostería",
     "descripcion": "El curso de Repostería brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de repostería. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/repostería.jpg",
+    "imagen": "assets/img/cursos/repostería.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-repostería",
-    "fecha_inicio": "2025-07-06"
-  },
-  {
-    "id": 64,
-    "titulo": "Ropa Para Mascotas",
-    "descripcion": "El curso de Ropa Para Mascotas brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de ropa para mascotas. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/ropa_para_mascotas.jpg",
-    "localidades": [],
-    "formulario": "https://forms.gle/inscripcion-ropaparamascotas",
-    "fecha_inicio": "2025-07-01"
+    "fecha_inicio": "2025-07-06",
+    "estado": "finalizado",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 65,
     "titulo": "Soldadura",
     "descripcion": "El curso de Soldadura brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de soldadura. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/soldadura.jpg",
+    "imagen": "assets/img/cursos/soldadura.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-soldadura",
-    "fecha_inicio": "2025-07-04"
+    "fecha_inicio": "2025-07-04",
+    "estado": "finalizado",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 66,
     "titulo": "Sublimación",
     "descripcion": "Curso de estampado por sublimación sobre remeras, tazas y gorras. Manejo de planchas térmicas, perfiles de color y diseño en software vectorial.",
-    "imagen": "assets/img/sublimación.jpg",
+    "imagen": "assets/img/cursos/sublimación.jpg",
     "localidades": [
       "San Salvador de Jujuy"
     ],
     "formulario": "https://forms.gle/inscripcion-sublimación",
-    "fecha_inicio": "2025-07-17"
+    "fecha_inicio": "2025-07-17",
+    "estado": "finalizado",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 67,
     "titulo": "Tejido",
     "descripcion": "El curso de Tejido brinda conocimientos prácticos y teóricos para personas interesadas en desarrollar habilidades en el área de tejido. Ideal para quienes buscan una rápida salida laboral o mejorar sus competencias actuales.",
-    "imagen": "assets/img/tejido.jpg",
+    "imagen": "assets/img/cursos/tejido.jpg",
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-tejido",
-    "fecha_inicio": "2025-07-18"
+    "fecha_inicio": "2025-07-18",
+    "estado": "finalizado",
+    "requisitos": "Mayor de 18 años"
   },
   {
     "id": 68,
     "titulo": "Tractorista",
     "descripcion": "Manejo seguro de tractores agrícolas: chequeos pre-operativos, transmisión y sistemas hidráulicos. Incluye práctica en campo labrado.",
-    "imagen": "assets/img/tractorista.jpg",
+    "imagen": "assets/img/cursos/tractorista.jpg",
     "localidades": [
       "Aguas Calientes",
       "Rodeíto"
     ],
     "formulario": "https://forms.gle/inscripcion-tractorista",
-    "fecha_inicio": "2025-07-02"
+    "fecha_inicio": "2025-07-02",
+    "estado": "en_curso",
+    "requisitos": "Mayor de 18 años y carnet habilitante"
   }
 ]
