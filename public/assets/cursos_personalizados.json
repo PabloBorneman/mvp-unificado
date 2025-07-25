@@ -673,7 +673,7 @@
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-prevencióndeestafaselectrónicas",
     "fecha_inicio": "2025-07-18",
-    "estado": "inscripcion_abierta",
+    "estado": "proximo",
     "requisitos": "Mayor de 18 años"
   },
   {
@@ -684,7 +684,7 @@
     "localidades": [],
     "formulario": "https://forms.gle/inscripcion-quesos",
     "fecha_inicio": "2025-06-17",
-    "estado": "inscripcion_abierta",
+    "estado": "proximo",
     "requisitos": "Mayor de 18 años"
   },
   {
