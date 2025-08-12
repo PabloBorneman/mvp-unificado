@@ -56,7 +56,7 @@
     },
     "formulario": "https://forms.gle/link-de-inscripcion",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 2,
@@ -100,7 +100,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-ayudante-panaderia",
     "imagen": "assets/img/cursos2025/ayudante_panaderia_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 3,
@@ -162,7 +162,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-peluqueria-barberia",
     "imagen": "assets/img/cursos2025/peluqueria_barberia_2025.webp",
-    "estado": "proximo"
+    "estado": "en_curso"
   },
   {
     "id": 4,
@@ -199,7 +199,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-molderia-colonial",
     "imagen": "assets/img/cursos2025/molderia_colonial_2025.webp",
-    "estado": "proximo"
+    "estado": "en_curso"
   },
   {
     "id": 5,
@@ -239,7 +239,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-indumentaria-mascotas",
     "imagen": "assets/img/cursos2025/indumentaria_mascotas_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 6,
@@ -279,7 +279,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-indumentaria-canina",
     "imagen": "assets/img/cursos2025/indumentaria_canina_2025.webp",
-    "estado": "proximo"
+    "estado": "en_curso"
   },
   {
     "id": 7,
@@ -322,7 +322,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-flores-textil",
     "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
-    "estado": "proximo"
+    "estado": "inscripcion_abierta"
   },
   {
     "id": 8,
@@ -367,7 +367,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-sublimacion-artesanal",
     "imagen": "assets/img/cursos2025/sublimacion_artesanal_2025.webp",
-    "estado": "proximo"
+    "estado": "en_curso"
   },
   {
     "id": 9,
@@ -407,7 +407,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-tejido-artesanal",
     "imagen": "assets/img/cursos2025/tejido_artesanal_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 10,
@@ -446,7 +446,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-marroquineria-mascotas",
     "imagen": "assets/img/cursos2025/marroquineria_mascotas_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 11,
@@ -513,7 +513,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-albanileria-mujeres",
     "imagen": "assets/img/cursos2025/albanileria_mujeres_practicas_2025.webp",
-    "estado": "en_curso"
+    "estado": "finalizado"
   },
   {
     "id": 13,
@@ -555,7 +555,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-panaderia-artesanal",
     "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 14,
@@ -595,7 +595,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-cocina-regional",
     "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
-    "estado": "proximo"
+    "estado": "finalizado"
   },
   {
     "id": 15,
@@ -640,6 +640,6 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-ayudante-cocina-hoteleria",
     "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
-    "estado": "proximo"
+    "estado": "en_curso"
   }
 ]
