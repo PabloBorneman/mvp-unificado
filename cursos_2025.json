@@ -1,0 +1,645 @@
+[
+  {
+    "id": 1,
+    "titulo": "Albañilería Básica para Mujeres",
+    "descripcion_breve": "Aprender conceptos teóricos básicos y técnicas de la construcción, con prácticas en entornos reales.",
+    "descripcion_completa": "Se aprende albañilería y sus técnicas, elección de estructuras, paredes, techos. Herramientas y equipos para usar, sus partes y uso correcto. Tipos de mezclas, dosificación, cómo hacer una mezcla manual o mecánica. Elección y cálculo de materiales para la obra. Tipos de paredes trabas, capa aisladora, colocación de aberturas, dinteles. Traslado de medidas, tipos de techo, canaletas, tirantes. Destinado a mujeres.",
+    "actividades": "Durante el curso se realizan clases teóricas y prácticas, en instituciones públicas (C.I.C, C.P.V, parroquias) o privadas (casas de las alumnas) con materiales disponibles.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-05-19",
+    "fecha_fin": "2025-07-19",
+    "frecuencia_semanal": 3,
+    "duracion_clase_horas": [3, 4],
+    "dias_horarios": [
+      "Lunes y jueves de 15:00 a 18:00",
+      "Martes y miércoles de 15:00 a 18:00",
+      "Sábados de 09:00 a 13:00 y de 14:00 a 18:00"
+    ],
+    "localidades": ["Alto Comedero"],
+    "direcciones": [
+      "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero",
+      "C.P.V. Combate – 30 Hectáreas – Alto Comedero"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno",
+        "Lapicera",
+        "Regla",
+        "Cuchara",
+        "Balde",
+        "Nivel de mano",
+        "Tanza",
+        "Tenaza",
+        "Martillo",
+        "Plomada",
+        "Metro",
+        "Guantes",
+        "Gafas",
+        "Ropa de trabajo"
+      ],
+      "entrega_curso": [
+        "Cartilla digital",
+        "Olla hormigonera",
+        "Reglas",
+        "Ladrillo",
+        "Cemento",
+        "Stopkal",
+        "Cerecita",
+        "Agua"
+      ]
+    },
+    "formulario": "https://forms.gle/link-de-inscripcion",
+    "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 2,
+    "titulo": "Ayudante de Panadería",
+    "descripcion_breve": "La demanda es bastante activa en la sociedad, por ser un servicio muy buscado y necesario, tanto para la venta de panificados como para consumo propio.",
+    "descripcion_completa": "Es un proyecto que permite formar en habilidades en el área de la panadería, abordando recetas clásicas como pan francés y baguette, así como panes regionales (pan de campo, pan casero) y panes especiales (hojaldre y panes dulces). El objetivo es que el alumno conozca la variedad de panes y las técnicas de amasado, fermentado, formado y horneado, para trabajar como ayudante panadero o emprender su propia panadería. Dirigido a jóvenes y adultos interesados en formarse en este oficio.",
+    "actividades": "Se trabajará con teoría y práctica: procedimientos de panadería, técnicas de amasado, formado de piezas y horneado. Se evaluará el trabajo individual, el procedimiento y la forma de trabajo de cada alumno.",
+    "duracion_total": "2 meses (8 semanas)",
+    "fecha_inicio": "2025-05-19",
+    "fecha_fin": "2025-07-17",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 9:00 a 13:00", "Jueves de 9:00 a 13:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero – San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Fotocopia de DNI", "Predisposición para aprender"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Ingredientes de las recetas",
+        "Bowl mediano",
+        "Cubiertos",
+        "Bowl chico para fermento",
+        "Repasador",
+        "Palote",
+        "Bolsas para tapar masas",
+        "Recetas impresas",
+        "Bandejas para hornear"
+      ],
+      "entrega_curso": [
+        "Instalación",
+        "Mesas para trabajar",
+        "Sillas para pertenencias",
+        "Lavadero",
+        "Horno para hornear"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-ayudante-panaderia",
+    "imagen": "assets/img/cursos2025/ayudante_panaderia_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 3,
+    "titulo": "Peluquería y Barbería Profesional",
+    "descripcion_breve": "Transforma estilos y crea tendencias. Aprende a cortar, colorear y diseñar looks impactantes.",
+    "descripcion_completa": "En este curso aprenderás las técnicas y habilidades necesarias para dominar los cortes, colores y estilos más actuales de peluquería y barbería. Aprenderás a utilizar herramientas y productos de manera efectiva. Está destinado a adolescentes y personas adultas que posean el uso motriz de su cuerpo.",
+    "actividades": "Cortes de cabello y barba, coloración y mechas, estilismo y diseño de look. Prácticas con modelos dentro y fuera de la institución: escuela secundaria, ONG, centro vecinal y toda entidad pública o gubernamental.",
+    "duracion_total": "7 meses",
+    "fecha_inicio": "2025-06-03",
+    "fecha_fin": "2025-12-31",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 16:00 a 19:00", "Miércoles de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": [
+      "Centro Cultural – Ministerio de Desarrollo Humano – San Salvador de Jujuy"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Poseer uso motriz de su cuerpo"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Peine cola",
+        "Rociador",
+        "Toalla",
+        "Separamechas",
+        "Peines básicos",
+        "Peine centimetrado",
+        "Peinador",
+        "Quita pelo de cerda",
+        "Cepillo de barber",
+        "Pechera de barber",
+        "Guantes de nitrilo",
+        "Cepillo para brushing (grande, mediano y pequeño)",
+        "Cepillo araña",
+        "Bifase",
+        "Tijera microdentada",
+        "Tijera de pulir",
+        "Navajin para desmechar con repuestos",
+        "Navajin feather para desmechar con repuestos",
+        "Máquina profesional de corte",
+        "Máquina profesional patillera en T",
+        "Secador de pelo profesional con boquilla y difusor",
+        "Gel para afeitar",
+        "Talco",
+        "Tintura",
+        "Polvo decolorante",
+        "Champú neutro",
+        "Champú ácido",
+        "Baño de crema",
+        "Baño de luz",
+        "Bowls",
+        "Pincel"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-peluqueria-barberia",
+    "imagen": "assets/img/cursos2025/peluqueria_barberia_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 4,
+    "titulo": "Moldería y Confección de Vestimenta Colonial",
+    "descripcion_breve": "Curso teórico-práctico de costura y confección para producir indumentaria escolar inspirada en la época colonial argentina.",
+    "descripcion_completa": "El curso “Producción de moldería, corte y confección de vestimenta de la época colonial para etapa escolar” está destinado a personas interesadas en aprender técnicas básicas y específicas de costura orientadas a la confección de prendas históricas. Se propone brindar herramientas prácticas para desarrollar vestimenta como trajes de paisanas, damas antiguas y caballeros coloniales, utilizados en actos escolares. Se enseñará la realización de moldes, trazado y corte de piezas, tipos de telas, armado, costura y terminaciones, usando métodos manuales y máquina de coser. También se abordará la creatividad para adaptaciones, y se fomentará el emprendimiento textil temático.",
+    "actividades": "Toma de medidas, confección de moldes base, corte de telas, armado de prendas (camisas, polleras, chalecos, pantalones), técnicas de costura a mano y máquina, adaptación de moldes, decoración con volados y terminaciones estéticas. Producción individual y grupal, con trabajo práctico final de una prenda completa.",
+    "duracion_total": "2 meses (16 clases)",
+    "fecha_inicio": "2025-07-11",
+    "fecha_fin": "2025-09-10",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 17:00 a 21:00", "Viernes de 17:00 a 21:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Perico – Dirección a confirmar"],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Ser mayor de 15 años"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno",
+        "Lapicera",
+        "Papel para moldes",
+        "Lápiz",
+        "Marcador",
+        "Regla curva",
+        "Escuadra",
+        "Cinta métrica"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-molderia-colonial",
+    "imagen": "assets/img/cursos2025/molderia_colonial_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 5,
+    "titulo": "Indumentaria para Mascotas",
+    "descripcion_breve": "Curso práctico de diseño y confección de prendas para mascotas, orientado al aprendizaje de moldería, costura y desarrollo de microemprendimientos.",
+    "descripcion_completa": "Este curso está orientado a personas interesadas en el diseño y confección de indumentaria para mascotas, brindando herramientas para crear prendas funcionales, cómodas y estéticamente agradables. A través de técnicas de modistería adaptadas a la anatomía animal, se elaborarán prendas para distintos tamaños, considerando confort, movilidad y necesidades específicas. Se aprenderá toma de medidas, trazado de moldes, selección de telas, corte y armado, incorporación de cierres y detalles decorativos, además de nociones de comercialización y promoción para emprendimientos textiles.",
+    "actividades": "Toma de medidas en mascotas, diseño y confección de moldes básicos y personalizados, corte y costura de prendas (abrigos, chalecos, capas). Uso de telas como polar, gabardina, frisa o impermeables. Colocación de sistemas de cierre (velcro, elástico). Diseño y adaptación según tamaño y estilo. Trabajo práctico final: prenda completa confeccionada y adaptada a una mascota real o de molde. Ideas para empaquetado, etiquetas y difusión.",
+    "duracion_total": "2 meses (16 clases)",
+    "fecha_inicio": "2025-05-19",
+    "fecha_fin": "2025-07-21",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 09:00 a 12:00", "Martes de 09:00 a 12:00"],
+    "localidades": ["Perico", "San Salvador de Jujuy"],
+    "direcciones": [
+      "Perico – Dirección a confirmar",
+      "San Salvador de Jujuy – Dirección a confirmar"
+    ],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Ser mayor de 15 años"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno",
+        "Lapicera",
+        "Papel para moldes",
+        "Lápiz",
+        "Marcador",
+        "Regla curva",
+        "Escuadra",
+        "Cinta métrica"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-indumentaria-mascotas",
+    "imagen": "assets/img/cursos2025/indumentaria_mascotas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 6,
+    "titulo": "Indumentaria Canina",
+    "descripcion_breve": "Aprende a confeccionar ropa y accesorios para mascotas, desde la toma de medidas hasta el armado final.",
+    "descripcion_completa": "Este curso brinda capacitación en confección de indumentaria canina, para personas interesadas en el diseño textil aplicado al mundo de las mascotas. Está destinado a jóvenes y adultos, con o sin experiencia, que deseen aprender a tomar medidas, realizar moldes y confeccionar prendas y accesorios adaptados a distintas razas y tamaños. Se trabajará con distintos tipos de tela, incluyendo materiales reciclados, fomentando la producción sustentable y económica.",
+    "actividades": "Toma de medidas a mascotas, diseño y adaptación de moldes, corte y costura de distintos tipos de tela, confección de ropa y accesorios (pecheras, viseras, cuellos, sombreros). Trabajos prácticos en cada clase y proyecto final de prenda o accesorio completo. Personalización y detalles estéticos.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-08-01",
+    "fecha_fin": "2025-09-30",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "direcciones": [
+      "San Salvador de Jujuy – Dirección a confirmar",
+      "Otras localidades según requerimiento"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Telas recicladas",
+        "Tijeras",
+        "Papel madera",
+        "Marcador",
+        "Cinta métrica",
+        "Regla",
+        "Hilos",
+        "Aguja"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-indumentaria-canina",
+    "imagen": "assets/img/cursos2025/indumentaria_canina_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 7,
+    "titulo": "Taller de Flores Textil",
+    "descripcion_breve": "Aprende a crear flores textiles engomadas para ramos, tocados, apliques decorativos y más.",
+    "descripcion_completa": "Este taller enseña a transformar tela común en flores textiles engomadas resistentes y delicadas. Se abordará el proceso de engomado, corte, modelado y armado de flores para diferentes usos creativos y decorativos. Está destinado a jóvenes y adultos, con o sin experiencia, que quieran desarrollar una actividad artesanal con fines personales, ornamentales o comerciales.",
+    "actividades": "Engomar diferentes tipos de tela, cortar pétalos y hojas con moldes, modelar con herramientas simples, armar flores individuales y composiciones como ramos, tocados, apliques y accesorios textiles. Proyecto final: pieza terminada realizada por cada participante.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-10-01",
+    "fecha_fin": "2025-11-30",
+    "frecuencia_semanal": 3,
+    "duracion_clase_horas": [3],
+    "dias_horarios": [
+      "Lunes de 15:00 a 18:00",
+      "Martes de 15:00 a 18:00",
+      "Miércoles de 15:00 a 18:00"
+    ],
+    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "direcciones": [
+      "San Salvador de Jujuy – Dirección a confirmar",
+      "Otras localidades según requerimiento"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Tela de algodón (ej. lienzo)",
+        "Tijera",
+        "Regla",
+        "Cuaderno",
+        "Lapicera",
+        "Silicona en barra",
+        "Pistolita de silicona"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-flores-textil",
+    "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
+    "estado": "inscripcion_abierta"
+  },
+  {
+    "id": 8,
+    "titulo": "Sublimación Artesanal",
+    "descripcion_breve": "Aprende a personalizar ropa, gorras y confeccionar bolsos o cartucheras para sublimar desde tu casa con técnicas caseras.",
+    "descripcion_completa": "Este curso ofrece capacitación práctica en técnicas de impresión textil mediante sublimación casera. Está dirigido a jóvenes y adultos, con o sin experiencia, que deseen personalizar y crear productos como remeras, gorras, bolsos y cartucheras, con fines personales, comerciales o como emprendimiento.",
+    "actividades": "Sublimación de distintos tipos de tela con planchas comunes. Prácticas sobre remeras y gorras. Confección y sublimación de bolsos y cartucheras con diseños personalizados. Preparación del diseño, elección de materiales accesibles, aplicación de técnicas, resolución de errores y presentación final del producto.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-08-01",
+    "fecha_fin": "2025-09-30",
+    "frecuencia_semanal": 3,
+    "duracion_clase_horas": [3],
+    "dias_horarios": [
+      "Lunes de 15:00 a 18:00",
+      "Martes de 15:00 a 18:00",
+      "Miércoles de 15:00 a 18:00"
+    ],
+    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "direcciones": [
+      "San Salvador de Jujuy – Dirección a confirmar",
+      "Otras localidades según requerimiento"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Plancha común para ropa",
+        "Remeras y gorras lisas",
+        "Distintos tipos de telas (claras y oscuras, lisas)",
+        "Cordura",
+        "Cinta adhesiva",
+        "Papel film",
+        "Papel con diseño para impresión",
+        "Revistas o folletos con dibujos o letras",
+        "Impresiones comunes en hoja A4"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-sublimacion-artesanal",
+    "imagen": "assets/img/cursos2025/sublimacion_artesanal_2025.webp",
+    "estado": "en_curso"
+  },
+  {
+    "id": 9,
+    "titulo": "Tejido Artesanal: Dos Agujas y Crochet",
+    "descripcion_breve": "Formación técnica en tejido artesanal con enfoque en diseño y confección de prendas y accesorios.",
+    "descripcion_completa": "Este curso desarrolla competencias en tejido artesanal, integrando tradición textil local con diseño contemporáneo. Está destinado a jóvenes y adultos interesados en adquirir saberes prácticos que promuevan la producción textil independiente, con identidad y enfoque sustentable. Incluye desde el reconocimiento de materiales y puntos básicos hasta el diseño de prendas funcionales y estéticas. Busca fomentar la autonomía económica y responde a la demanda cultural y comercial de Monterrico.",
+    "actividades": "Exploración de lanas, hilos y fibras; técnicas básicas y avanzadas en dos agujas y crochet; cálculo de proporciones; confección de gorros, bufandas, ponchos, suéteres y mantas; ejercicios de diseño con identidad regional; prácticas colaborativas; producción final de una pieza personal y una grupal para muestra.",
+    "duracion_total": "2 meses (8 semanas)",
+    "fecha_inicio": "2025-04-03",
+    "fecha_fin": "2025-05-31",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 14:00 a 16:00", "Viernes de 14:00 a 16:00"],
+    "localidades": ["Monterrico"],
+    "direcciones": ["Monterrico – Dirección a confirmar"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Interés en oficios textiles y producción artesanal"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Agujas de crochet",
+        "Agujas de dos puntas",
+        "Tijeras",
+        "Cinta métrica",
+        "Lana o hilo a elección"
+      ],
+      "entrega_curso": [
+        "Muestras de puntos",
+        "Patrones básicos y moldes",
+        "Fichas técnicas de diseño y producción",
+        "Material didáctico impreso",
+        "Materiales para práctica compartida (hilos, retazos, fibras)"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-tejido-artesanal",
+    "imagen": "assets/img/cursos2025/tejido_artesanal_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 10,
+    "titulo": "Marroquinería Funcional para Mascotas",
+    "descripcion_breve": "Capacitación práctica para elaborar accesorios de marroquinería orientados al cuidado y traslado de mascotas.",
+    "descripcion_completa": "Este curso brinda competencias para el diseño, producción y acabado de artículos de marroquinería aplicados a mascotas, respondiendo a una demanda creciente del mercado. Integra saberes tradicionales y metodologías contemporáneas con enfoque práctico, producción responsable y fomento del autoempleo. Incluye diseño técnico, manipulación de materiales, calidad del producto final y nociones básicas de comercialización. Orientado a jóvenes y adultos con interés en insertarse en circuitos de comercialización artesanal, ferial y virtual.",
+    "actividades": "Relevamiento de necesidades funcionales, análisis de materiales (eco-cuero, lona, tejidos reciclados, herrajes), elaboración de moldes base y prototipos, corte y costura manual, armado de collares, arneses, bolsos y porta-bolsitas, evaluación técnica de calidad y resistencia, innovación en diseño e identidad artesanal, criterios de seguridad, confort y sostenibilidad. Trabajo final: línea de productos propios con criterios estéticos y funcionales.",
+    "duracion_total": "2 meses (8 semanas)",
+    "fecha_inicio": "2025-05-08",
+    "fecha_fin": "2025-07-04",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Martes de 16:00 a 18:00", "Jueves de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy – Dirección a confirmar"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Interés por los oficios productivos y las economías populares"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Tijeras",
+        "Cinta métrica",
+        "Marcador textil",
+        "Material reciclado o retazos (eco-cuero, telas gruesas)",
+        "Costurero básico"
+      ],
+      "entrega_curso": [
+        "Moldes base y guías técnicas",
+        "Fichas de diseño",
+        "Muestras de materiales según disponibilidad",
+        "Apuntes impresos con técnicas de confección y esquemas de armado"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-marroquineria-mascotas",
+    "imagen": "assets/img/cursos2025/marroquineria_mascotas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 11,
+    "titulo": "Técnico en Reparación de Celulares – Nivel Inicial",
+    "descripcion_breve": "Aprende a reparar celulares Android multimarca, desde diagnóstico hasta cambio de módulos, pines y baterías.",
+    "descripcion_completa": "Curso orientado a quienes deseen iniciarse en la reparación de celulares Android multimarca. Incluye diagnóstico de fallas, micro soldadura, mediciones con multímetro, cambio de módulos, pines y baterías, uso y manipulación de herramientas, diferencias en calidad de repuestos, y nociones de marketing y administración del negocio. Se brindan bases de microelectrónica y funcionamiento de componentes en la placa.",
+    "actividades": "Prácticas de reparación aplicando lo aprendido en clase, trabajos prácticos corregidos en clase siguiente, evaluaciones para afianzar conocimientos. Los alumnos que aprueben podrán pasar al siguiente nivel.",
+    "duracion_total": "1 mes",
+    "fecha_inicio": "",
+    "fecha_fin": "",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["Necochea 465, Local 5 – San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Sin conocimientos previos en electrónica"]
+    },
+    "materiales": {
+      "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
+      "entrega_curso": ["Cartilla con el desarrollo de cada clase"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-reparacion-celulares",
+    "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 12,
+    "titulo": "Albañilería para Mujeres – Prácticas en Obra",
+    "descripcion_breve": "Capacitación en técnicas de albañilería con enfoque práctico en obras reales, destinada a mujeres.",
+    "descripcion_completa": "Curso orientado a mujeres para aprender y aplicar técnicas de albañilería en obras reales. Se abordan temas como levantado de paredes, uso de capa aisladora, traslado de medidas con nivel de manguera y nivel de mano, colocación de aberturas y dinteles, techos según tipo de material, colocación de tirantes, chapas y canaletas. Se complementa con prácticas de higiene y seguridad, uso de herramientas y ergonomía en tareas de construcción.",
+    "actividades": "Prácticas en la Parroquia Santa Cecilia del barrio Alto Comedero: desencofrado de vigas, levantado de paredes con bloques, uso de impermeabilizantes en mezclas, aplicación de plomada y niveles, uso de refuerzos en juntas. Ejercicios de higiene y seguridad, uso de EPP, y aplicación de posturas correctas para evitar lesiones.",
+    "duracion_total": "1 mes",
+    "fecha_inicio": "2025-06-19",
+    "fecha_fin": "2025-07-19",
+    "frecuencia_semanal": 3,
+    "duracion_clase_horas": [3, 4],
+    "dias_horarios": [
+      "Lunes de 15:00 a 18:00 (C.I.C Che Guevara)",
+      "Martes de 15:00 a 18:00 (C.I.C Che Guevara y C.P.V Combate)",
+      "Miércoles de 15:00 a 18:00 (C.P.V Combate)",
+      "Sábados de 09:00 a 13:00 (C.I.C Che Guevara)",
+      "Sábados de 14:00 a 18:00 (C.P.V Combate)"
+    ],
+    "localidades": ["Alto Comedero"],
+    "direcciones": [
+      "C.P.V. Combate – 30 Hectáreas – Alto Comedero",
+      "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero"
+    ],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": ["Guantes", "Gafas", "Ropa de trabajo", "Barbijo"],
+      "entrega_curso": [
+        "Materiales para prácticas según disponibilidad en obra"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-albanileria-mujeres",
+    "imagen": "assets/img/cursos2025/albanileria_mujeres_practicas_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 13,
+    "titulo": "Panadería Artesanal",
+    "descripcion_breve": "Aprende técnicas y habilidades para crear panes y tortas artesanales de alta calidad.",
+    "descripcion_completa": "El curso de panadería artesanal proporciona habilidades y conocimientos para elaborar panes y postres artesanales de alta calidad, utilizando técnicas e ingredientes regionales. Está diseñado para niveles desde básico a avanzado, según la experiencia previa del alumno. Al finalizar, los estudiantes podrán crear productos de calidad, experimentar con nuevas recetas y desarrollar un emprendimiento propio.",
+    "actividades": "Introducción a la panadería, higiene personal, mise en place, seguridad e higiene, uso de utensilios y equipos, trabajo en equipo, clases prácticas presenciales, técnicas de horneado y enfriamiento, recetarios en PDF.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-05-19",
+    "fecha_fin": "2025-07-17",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 08:00 a 12:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["San Pedrito"],
+    "direcciones": ["Centro Vecinal San Francisco de Alava – San Pedrito"],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Ser mayor de 16 años",
+        "No se requieren conocimientos previos en pastelería",
+        "Interés en trabajar en un entorno de cocina y seguir normas de seguridad e higiene"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Harina",
+        "Azúcar",
+        "Huevos",
+        "Leche",
+        "Bowl",
+        "Espátula",
+        "Cacerola",
+        "Delantal",
+        "Cofia"
+      ],
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-panaderia-artesanal",
+    "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 14,
+    "titulo": "Cocina Regional",
+    "descripcion_breve": "Aprende habilidades básicas para trabajar como ayudante de cocina en restaurantes, hoteles o emprendimientos.",
+    "descripcion_completa": "El curso de ayudante de cocina brinda habilidades y conocimientos básicos para desempeñarse en entornos gastronómicos, cubriendo técnicas de cocina, seguridad y trabajo en equipo. Diseñado para principiantes sin experiencia previa, ofrece una base sólida para seguir creciendo profesionalmente en la cocina. Se desarrollan competencias en comunicación, organización y ejecución de tareas propias del puesto.",
+    "actividades": "Introducción a la gastronomía, higiene personal, mise en place, seguridad e higiene, uso de utensilios y equipos, trabajo en equipo, clases prácticas, técnicas de cocción (hornear, hervir, freír, gratinar), cortes básicos (brunua, pluma, juliana), recetarios en PDF.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-05-21",
+    "fecha_fin": "2025-07-18",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 15:00 a 19:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero"],
+    "requisitos": {
+      "mayor_18": false,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Ser mayor de 16 años",
+        "No se requieren conocimientos previos en gastronomía",
+        "Interés en trabajar en un entorno de cocina y seguir normas de seguridad e higiene"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Vegetales",
+        "Carne",
+        "Cuchillo",
+        "Tabla",
+        "Cacerola",
+        "Delantal",
+        "Cofia"
+      ],
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-cocina-regional",
+    "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
+    "estado": "finalizado"
+  },
+  {
+    "id": 15,
+    "titulo": "Ayudante de Cocina con Orientación en Hotelería",
+    "descripcion_breve": "Formación para desempeñarse como ayudante de cocina en entornos gastronómicos con enfoque regional y hotelero.",
+    "descripcion_completa": "Este curso capacita a ayudantes de cocina para trabajar en distintos entornos gastronómicos con alto nivel de calidad en elaboraciones y presentaciones, integrando una mirada regional. Se enseñan herramientas prácticas y teóricas para desarrollar platos que destaquen sabores, colores y aromas, fusionando materias primas de las cuatro regiones de la provincia. Incluye seguridad alimentaria, derechos y deberes del ayudante de cocina, cocina sin TACC, cortes, porciones, técnicas de cocción, emplatado y manipulación de alimentos.",
+    "actividades": "Masterclass temáticas, preparación individual y grupal de platos, emplatado con supervisión del chef formador, diseño de Mapa de Sabores personal.",
+    "duracion_total": "4 meses",
+    "fecha_inicio": "2025-06-05",
+    "fecha_fin": "2025-09-25",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 09:00 a 13:00", "Jueves de 15:00 a 19:00"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Municipalidad de Libertador General San Martín"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": [
+        "Tener voluntad y disposición para ser formado/a en cocina, con o sin conocimientos previos",
+        "Respetar normas de presentación personal, higiene y uso adecuado de herramientas y materia prima"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Gorro, pañuelo o bandana",
+        "Delantal o chaqueta",
+        "Cuchillos y cubiertos",
+        "Tablas de picar (verduras y carnes)",
+        "Pelapapas",
+        "Bowls",
+        "Sartén",
+        "Ollas",
+        "Bandejas",
+        "Platos para emplatar",
+        "Repasador",
+        "Guantes de nitrilo",
+        "Condimentos y hierbas"
+      ],
+      "entrega_curso": ["Cartilla impresa (también en PDF vía WhatsApp)"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-ayudante-cocina-hoteleria",
+    "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
+    "estado": "en_curso"
+  }
+]
