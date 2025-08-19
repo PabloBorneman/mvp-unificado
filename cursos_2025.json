@@ -641,5 +641,40 @@
     "formulario": "https://forms.gle/link-inscripcion-ayudante-cocina-hoteleria",
     "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
     "estado": "en_curso"
+  },
+  {
+    "id": 16,
+    "titulo": "Barbería",
+    "descripcion_breve": "Capacitación práctica en deslizamientos, cortes y tratamientos capilares.",
+    "descripcion_completa": "Capacitación orientada a que los alumnos aprendan los diferentes deslizamientos que se aplican en el cabello y cómo utilizarlos. Se trabaja análisis de direcciones del cabello, instrumentos profesionales y su mantenimiento. Objetivos: tratamientos capilares intensivos y alisado; cortes básicos; reflejos; decoloración; tintura y base; etapas de decoloración y tipos de base.",
+    "actividades": "Análisis de direcciones del cabello; uso y mantenimiento de tijeras y máquinas; prácticas de cortes; aplicación de tratamientos, reflejos, decoloración y tintura.",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-05-06",
+    "fecha_fin": "2025-07-22",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [2.25],
+    "dias_horarios": ["Martes y Jueves de 16:00 a 18:15"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín – Dirección a confirmar"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": []
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Tijeras",
+        "Máquina de corte",
+        "Máquina patillera",
+        "Peines",
+        "Peinador",
+        "Toalla"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-barberia-observatorio",
+    "imagen": "assets/img/cursos2025/barberia_observatorio_2025.webp",
+    "estado": "finalizado"
   }
 ]
