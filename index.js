@@ -1,6 +1,7 @@
 /* ==========================================================
  * index.js – Express + OpenAI + memoria de sesión (3 turnos)
- * Cursos 2025 + short-circuit difuso para en_curso/finalizado
+ * Cursos 2025 + FILTRO DURO: ocultar en_curso/finalizado
+ * y REGLA DURA solo ante mención directa del título.
  * ========================================================== */
 
 'use strict';
@@ -94,7 +95,7 @@ const pickCourse = (c) => ({
   },
   formulario: sanitize(c.formulario || ''),
   imagen: sanitize(c.imagen || ''),
-  estado: c.estado || 'proximo'
+  estado: (c.estado || 'proximo').toLowerCase()
 });
 
 // similitud Jaccard por palabras para títulos
@@ -115,6 +116,28 @@ const topMatchesByTitle = (courses, query, k = 3) => {
     .slice(0, k);
 };
 
+const ELIGIBLE_STATES = new Set(['inscripcion_abierta','proximo']);
+const isEligible = (c) => ELIGIBLE_STATES.has((c.estado || 'proximo').toLowerCase());
+
+// mención directa de título (evita gatillar por palabras sueltas)
+const isDirectTitleMention = (query, title) => {
+  const q = normalize(query);
+  const t = normalize(title);
+  if (!q || !t) return false;
+
+  // Usuario escribió el título completo
+  if (q.includes(t)) return true;
+
+  const qTok = new Set(q.split(' ').filter(Boolean));
+  const tTok = new Set(t.split(' ').filter(Boolean));
+  const inter = [...qTok].filter(x => tTok.has(x)).length;
+  const uni   = new Set([...qTok, ...tTok]).size;
+  const j     = uni ? inter / uni : 0;
+
+  // Requiere bastante coincidencia de tokens para considerarlo "directo"
+  return j >= 0.72 || (inter >= 2 && j >= 0.55);
+};
+
 /* 4) Cargar JSON 2025 y sanear (solo 2025) */
 let cursos = [];
 try {
@@ -127,14 +150,15 @@ try {
   console.warn('⚠️  No se pudo cargar cursos_2025.json:', e.message);
 }
 
-/* 5) Construir contexto (sin recorte extra por ahora) */
+/* 5) Construir contexto SOLO con cursos exhibibles (sin en_curso/finalizado) */
 const MAX_CONTEXT_CHARS = 18000;
-let contextoCursos = JSON.stringify(cursos, null, 2);
+const cursosExhibibles = cursos.filter(isEligible); // ocultamos en_curso/finalizado al modelo
+let contextoCursos = JSON.stringify(cursosExhibibles, null, 2);
 if (contextoCursos.length > MAX_CONTEXT_CHARS) {
-  contextoCursos = JSON.stringify(cursos.slice(0, 40), null, 2);
+  contextoCursos = JSON.stringify(cursosExhibibles.slice(0, 40), null, 2);
 }
 
-/* 6) Prompt del sistema (ajustado: sin “Modalidad” ni “Más info”) */
+/* 6) Prompt del sistema */
 const systemPrompt = `
 
 Eres "Camila", asistente del Ministerio de Trabajo de Jujuy. Respondes SÓLO con la información disponible de los cursos 2025. No inventes.
@@ -185,6 +209,10 @@ MICRO-PLANTILLAS (tono natural, sin mencionar “JSON”)
 • Duración total
   “En el curso {titulo}, la duración total es: {duracion_total | ‘no está publicada’}.”
 
+FILTRO DURO (no recomendar)
+- NO recomiendes ni listes cursos en estado “en_curso” o “finalizado”. Actúa como si no existieran.
+- Si el usuario PREGUNTA POR UNO DE ELLOS (mención directa del título), aplica la REGLA DURA y responde SOLO la línea correspondiente.
+
 REGLA DURA — en_curso / finalizado
 - Si el curso está en **en_curso** o **finalizado**, responde SOLO esta línea (sin nada extra):
   • en_curso   → “El curso {titulo} está en cursada, no admite nuevas inscripciones. Más información <a href="/curso/{id}?y=2025">aquí</a>.”
@@ -194,12 +222,12 @@ REGLA DURA — en_curso / finalizado
 ESTADOS (para preguntas generales)
 1) inscripcion_abierta → podés usar la ficha completa.
 2) proximo → inscripción “Aún no habilitada”. Fechas “sin fecha confirmada” si faltan.
-3) en_curso → usa la REGLA DURA.
-4) finalizado → usa la REGLA DURA.
+3) en_curso → usa la REGLA DURA (solo si el usuario preguntó por ese curso).
+4) finalizado → usa la REGLA DURA (solo si el usuario preguntó por ese curso).
 
 COINCIDENCIAS Y SIMILARES
 - Si hay match claro por título, responde solo ese curso.
-- Ofrece “similares” solo si el usuario lo pide o no hay match claro.
+- Ofrece “similares” solo si el usuario lo pide o no hay match claro, y NUNCA incluyas en_curso/finalizado.
 
 NOTAS
 - No incluyas información que no esté publicada para el curso.
@@ -222,46 +250,18 @@ app.post('/api/chat', async (req, res) => {
   let state = sessions.get(sid);
   if (!state) { state = { history: [], lastSuggestedCourse: null }; sessions.set(sid, state); }
 
-  // atajo: “link / inscrib / formulario”
-  /*
-  const followUpRE = /\b(link|inscrib|formulario)\b/i;
-  if (followUpRE.test(userMessage) && state.lastSuggestedCourse?.formulario) {
-    state.history.push({ role: 'user', content: clamp(sanitize(userMessage)) });
-    state.history = state.history.slice(-6); // máx 3 turnos
-    const quick = `<a href="${state.lastSuggestedCourse.formulario}">Formulario de inscripción</a>.`;
-    state.history.push({ role: 'assistant', content: clamp(quick) });
-    state.history = state.history.slice(-6);
-    return res.json({ message: quick });
-  }*/
+  /* ===== Short-circuit: REGLA DURA solo si hay mención directa del título ===== */
+  const duroTarget = cursos.find(c =>
+    (c.estado === 'en_curso' || c.estado === 'finalizado') &&
+    isDirectTitleMention(userMessage, c.titulo)
+  );
 
-  /* ===== Short-circuit DIFUSO: match exacto o aproximado por título (solo 2025) ===== */
-  const qNorm = normalize(userMessage);
-
-  // mejor candidato por título (Jaccard)
-  const best = topMatchesByTitle(cursos, userMessage, 1)[0]; // puede ser undefined
-  let shouldShortCircuit = false;
-  let chosen = null;
-
-  if (best) {
-    const tNorm = normalize(best.titulo);
-    const contains = qNorm.includes(tNorm) || tNorm.includes(qNorm); // contains bidireccional
-    const score = best.score || 0;
-
-    // umbral ajustable (0.35 es un buen punto de partida para frases naturales)
-    if (contains || score >= 0.35) {
-      chosen = cursos.find(c => c.id === best.id) || null;
-      if (chosen && (chosen.estado === 'en_curso' || chosen.estado === 'finalizado')) {
-        shouldShortCircuit = true;
-      }
-    }
-  }
-
-  if (shouldShortCircuit && chosen) {
-    const enlace = `/curso/${encodeURIComponent(chosen.id)}?y=2025`;
+  if (duroTarget) {
+    const enlace = `/curso/${encodeURIComponent(duroTarget.id)}?y=2025`;
     const msg =
-      chosen.estado === 'finalizado'
-        ? `El curso <strong>${chosen.titulo}</strong> ya finalizó, no podés inscribirte. Más información <a href="${enlace}">aquí</a>.`
-        : `El curso <strong>${chosen.titulo}</strong> está en cursada, no admite nuevas inscripciones. Más información <a href="${enlace}">aquí</a>.`;
+      duroTarget.estado === 'finalizado'
+        ? `El curso <strong>${duroTarget.titulo}</strong> ya finalizó, no podés inscribirte. Más información <a href="${enlace}">aquí</a>.`
+        : `El curso <strong>${duroTarget.titulo}</strong> está en cursada, no admite nuevas inscripciones. Más información <a href="${enlace}">aquí</a>.`;
 
     // guardar historial (máx 3 turnos)
     state.history.push({ role: 'user', content: clamp(sanitize(userMessage)) });
@@ -272,9 +272,9 @@ app.post('/api/chat', async (req, res) => {
     return res.json({ message: msg });
   }
 
-  // pre-matching server-side: top 3 por título (hint para la IA)
-  const candidates = topMatchesByTitle(cursos, userMessage, 3);
-  const matchingHint = { hint: 'Candidatos más probables por título:', candidates };
+  // pre-matching server-side: top 3 por título SOLO en exhibibles (hint para la IA)
+  const candidates = topMatchesByTitle(cursosExhibibles, userMessage, 3);
+  const matchingHint = { hint: 'Candidatos más probables por título (solo activos o próximos):', candidates };
 
   // construir mensajes para el modelo:
   const messages = [
@@ -314,8 +314,8 @@ app.post('/api/chat', async (req, res) => {
     state.history.push({ role: 'assistant', content: clamp(aiResponse) });
     state.history = state.history.slice(-6);
 
-    // capturar curso y link sugerido para “dame el link”
-    const m = aiResponse.match(/<strong>([^<]+)<\/strong>.*?<a href="([^"]+)"/i);
+    // capturar curso y link sugerido SOLO si es un Google Forms (para “dame el link”)
+    const m = aiResponse.match(/<strong>([^<]+)<\/strong>.*?<a href="(https?:\/\/(?:docs\.google\.com\/forms|forms\.gle)\/[^"]+)"/i);
     if (m) state.lastSuggestedCourse = { titulo: m[1].trim(), formulario: m[2].trim() };
 
     res.json({ message: aiResponse });
