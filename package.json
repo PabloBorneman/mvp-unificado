@@ -9,14 +9,15 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@dqbd/tiktoken": "^1.0.22",
     "body-parser": "^1.20.2",
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "openai": "^4.104.0"
   },
   "devDependencies": {
-    "@angular/cli": "next",
     "@angular/build": "next",
+    "@angular/cli": "next",
     "nodemon": "^3.0.3"
   }
 }
