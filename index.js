@@ -198,6 +198,10 @@ REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_complet
 MICRO-PLANTILLAS (tono natural, sin mencionar “JSON”)
 • Link/Inscripción (solo si estado = inscripcion_abierta):
   “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
+• Link/Inscripción (si estado = proximo):
+  “En el curso {titulo}, la inscripción aún no está habilitada (estado: próximo).
+   Estará disponible a la brevedad; mantenete atento al lanzamiento.
+   Más información <a href="/curso/{id}?y=2025">aquí</a>.”
 • ¿Cuándo empieza?
   “En el curso {titulo}, se inicia el {fecha_inicio|‘sin fecha confirmada’}.”
 • ¿Cuándo termina?
@@ -225,6 +229,13 @@ REGLA DURA — en_curso / finalizado
   • finalizado → “El curso {titulo} ya finalizó, no podés inscribirte. Más información <a href="/curso/{id}?y=2025">aquí</a>.”
 - No listes múltiples cursos en estos casos. Enlace: /curso/{id}?y=2025.
 
+REGLA DURA — solicitud de link con estado “proximo”
+- Si el usuario pide link, formulario o inscribirse y el curso está en estado “proximo”, respondé EXACTAMENTE (sin agregar nada más de formulario externo):
+  “En el curso {titulo}, la inscripción aún no está habilitada (estado: próximo).
+   Estará disponible a la brevedad; mantenete atento al lanzamiento.
+   Más información <a href="/curso/{id}?y=2025">aquí</a>.”
+- PROHIBIDO mostrar el link del formulario (Google Forms) si el estado es “proximo”.
+
 ESTADOS (para preguntas generales)
 1) inscripcion_abierta → podés usar la ficha completa.
 2) proximo → inscripción “Aún no habilitada”. Fechas “sin fecha confirmada” si faltan.
@@ -238,6 +249,7 @@ COINCIDENCIAS Y SIMILARES
 NOTAS
 - No incluyas información que no esté publicada para el curso.
 - No prometas certificados ni vacantes si no están publicados.
+
 
 `;
 
