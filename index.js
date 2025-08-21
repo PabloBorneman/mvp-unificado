@@ -1,11 +1,11 @@
 /* ==========================================================
  * index.js – Express + OpenAI + memoria de sesión (3 turnos)
- * Chatbot “Camila” · Contexto COMPLETO (todos los estados)
- * - REGLA DURA solo ante mención directa del título si está
- *   en_curso/finalizado.
- * - Temáticas (gastronomía/textil/etc.): las interpreta el LLM.
- * - En listados: siempre “— Estado” + Más info; “Inscribirte”
- *   SOLO si inscripcion_abierta.
+ * Chatbot “Camila” · FIX:
+ *  - El LLM SOLO ve cursos elegibles (inscripcion_abierta / proximo)
+ *  - NUNCA recomienda en_curso/finalizado
+ *  - REGLA DURA si mencionan título en_curso/finalizado
+ *  - Bloqueo server-side de links de inscripción si no corresponde
+ *  - Listados por localidad/“disponibles ahora” muestran SOLO elegibles
  * ========================================================== */
 
 'use strict';
@@ -131,6 +131,9 @@ const topMatchesByTitle = (courses, query, k = 3) => {
     .slice(0, k);
 };
 
+const ELIGIBLE_STATES = new Set(['inscripcion_abierta','proximo']);
+const isEligible = (c) => ELIGIBLE_STATES.has((c.estado || 'proximo').toLowerCase());
+
 // mención directa de título (evita gatillar por palabras sueltas)
 const isDirectTitleMention = (query, title) => {
   const q = normalize(query);
@@ -162,11 +165,12 @@ try {
   console.warn('⚠️  No se pudo cargar cursos_2025.json:', e.message);
 }
 
-/* 5) Construir contexto con TODOS los cursos (incluye en_curso/finalizado) */
+/* 5) Contexto para el LLM: SOLO cursos elegibles (no ve en_curso/finalizado) */
 const MAX_CONTEXT_CHARS = 18000;
-let contextoCursos = JSON.stringify(cursos, null, 2);
+const cursosElegibles = cursos.filter(isEligible);
+let contextoCursos = JSON.stringify(cursosElegibles, null, 2);
 if (contextoCursos.length > MAX_CONTEXT_CHARS) {
-  contextoCursos = JSON.stringify(cursos.slice(0, 40), null, 2);
+  contextoCursos = JSON.stringify(cursosElegibles.slice(0, 40), null, 2);
 }
 
 /* === Estado legible + helpers de UI (para respuestas server-side) === */
@@ -196,41 +200,43 @@ const detalleCortoHTML = (c) => {
   ].join('<br>');
 };
 
-/* === Búsqueda por localidad (determinística) === */
-const cursosPorLocalidad = (loc) => {
+/* === Búsqueda por localidad (determinística, SOLO elegibles) === */
+const cursosPorLocalidadElegibles = (loc) => {
   const nloc = normalize(loc);
-  return cursos.filter(c => (c.localidades || []).some(l => normalize(l) === nloc));
+  return cursosElegibles.filter(c => (c.localidades || []).some(l => normalize(l) === nloc));
 };
 
-/* === Intent router mínimo: localidad + “cómo me inscribo” + campos por título === */
+/* === Intent router mínimo: disponibilidad, localidad, “cómo me inscribo”, campos por título, formulario === */
 const has = (s, rx) => rx.test(normalize(s));
 
 const detectIntent = (msg) => {
-  if (has(msg, /inscrib/)) return {type:'inscripcion-general'};
+  if (has(msg, /(inscrib|anotarme|anotarme ya|como me inscribo|c[oó]mo me inscribo)/)) return {type:'inscripcion-general'};
+  if (has(msg, /(que|qué)\s+cursos\s+(hay|estan|están)\s+(disponibles|abiertos|ahora)/)) return {type:'listado-disponibles'};
 
   // “cursos en {localidad}”
   const mLoc = msg.match(/cursos\s+(en|de)\s+([a-záéíóúñ\s]+)$/i);
   if (mLoc) return {type:'por-localidad', loc: mLoc[2].trim()};
 
   // título directo + campo
-  const cand = cursos.find(c => isDirectTitleMention(msg, c.titulo));
-  if (cand) {
-    if (has(msg, /horari|d[ií]as/))   return {type:'horarios',  course:cand};
-    if (has(msg, /requisit/))         return {type:'requisitos', course:cand};
-    if (has(msg, /material/))         return {type:'materiales', course:cand};
-    if (has(msg, /(donde|dónd|sede|direcci[óo]n)/)) return {type:'sede', course:cand};
-    if (has(msg, /(cu[aá]ndo.*empieza|fecha.*inicio|empieza)/)) return {type:'fecha_inicio', course:cand};
-    if (has(msg, /(cu[aá]ndo.*termina|fecha.*fin|termina)/))    return {type:'fecha_fin', course:cand};
-    if (has(msg, /duraci[óo]n/))      return {type:'duracion',   course:cand};
-    if (has(msg, /(precio|costo|cupos|modalidad)/)) return {type:'no-publicado', course:cand};
-    return {type:'mas-info', course:cand}; // fallback detalle corto
+  const candAll = cursos.find(c => isDirectTitleMention(msg, c.titulo));
+  if (candAll) {
+    if (has(msg, /(formulario|link|inscripci[oó]n|inscribirme)/)) return {type:'formulario', course:candAll};
+    if (has(msg, /horari|d[ií]as/))   return {type:'horarios',  course:candAll};
+    if (has(msg, /requisit/))         return {type:'requisitos', course:candAll};
+    if (has(msg, /material/))         return {type:'materiales', course:candAll};
+    if (has(msg, /(donde|dónd|sede|direcci[óo]n)/)) return {type:'sede', course:candAll};
+    if (has(msg, /(cu[aá]ndo.*empieza|fecha.*inicio|empieza|inicio)/)) return {type:'fecha_inicio', course:candAll};
+    if (has(msg, /(cu[aá]ndo.*termina|fecha.*fin|termina|finaliza)/))  return {type:'fecha_fin', course:candAll};
+    if (has(msg, /duraci[óo]n/))      return {type:'duracion',   course:candAll};
+    if (has(msg, /(precio|costo|cupos|modalidad)/)) return {type:'no-publicado', course:candAll};
+    return {type:'mas-info', course:candAll}; // fallback detalle corto
   }
   return {type:'desconocido'};
 };
 
-const renderByIntent = (intent, msg, state) => {
+const renderByIntent = (intent) => {
   if (intent.type === 'inscripcion-general') {
-    const abiertas = cursos.filter(c => c.estado==='inscripcion_abierta');
+    const abiertas = cursosElegibles.filter(c => c.estado==='inscripcion_abierta');
     if (!abiertas.length) {
       return 'Ahora no hay cursos con inscripción abierta. Podés consultar “¿Cuándo abre la inscripción de {título}?”';
     }
@@ -238,27 +244,52 @@ const renderByIntent = (intent, msg, state) => {
       const c = abiertas[0];
       return `En el curso <strong>${c.titulo}</strong>, te podés inscribir acá: <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a>.<br>${accionesHTML(c)}`;
     }
-    const items = abiertas.slice(0,3).map(c => `• <strong>${c.titulo}</strong> — ${estadoLegible(c)} — <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a> — (navigateToCourse:${c.id})`).join('<br>');
+    const items = abiertas.slice(0,5).map(c => `• <strong>${c.titulo}</strong> — ${estadoLegible(c)} — <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a> — (navigateToCourse:${c.id})`).join('<br>');
     return `Estas opciones tienen inscripción abierta:<br>${items}`;
   }
 
+  if (intent.type === 'listado-disponibles') {
+    // SOLO elegibles (abierta + próximo). En tu JSON: Celulares (próximo) y Flores (abierta)
+    const list = cursosElegibles.slice(0, 10);
+    if (!list.length) return 'Por ahora no hay cursos disponibles. Probá más tarde.';
+    const items = list.map(c => {
+      const link = c.estado==='inscripcion_abierta' && c.formulario
+        ? ` — <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a>`
+        : '';
+      return `• <strong>${c.titulo}</strong> — ${estadoLegible(c)}${link} — (navigateToCourse:${c.id})`;
+    }).join('<br>');
+    return `Cursos disponibles ahora:<br>${items}`;
+  }
+
   if (intent.type === 'por-localidad') {
-    const list = cursosPorLocalidad(intent.loc);
+    const list = cursosPorLocalidadElegibles(intent.loc);
     if (!list.length) {
-      const cercanas = ['San Salvador de Jujuy','Perico','Libertador General San Martín'].filter(l => cursosPorLocalidad(l).length);
-      return `No hay cursos en ${sanitize(intent.loc)} en el catálogo 2025. Cercanas con oferta: ${cercanas.join(', ')}. ¿Querés ver opciones ahí?`;
+      return `No hay cursos con inscripción abierta o próximos en ${sanitize(intent.loc)}. Podés ver opciones disponibles en San Salvador de Jujuy.`;
     }
-    const items = list.slice(0,7).map(c => `• <strong>${c.titulo}</strong> — ${estadoLegible(c)} (navigateToCourse:${c.id})`).join('<br>');
+    const items = list.slice(0,7).map(c => {
+      const link = c.estado==='inscripcion_abierta' && c.formulario
+        ? ` — <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a>`
+        : '';
+      return `• <strong>${c.titulo}</strong> — ${estadoLegible(c)}${link} — (navigateToCourse:${c.id})`;
+    }).join('<br>');
     return `Cursos en ${sanitize(intent.loc)}:<br>${items}`;
   }
 
-  if (['horarios','requisitos','materiales','sede','fecha_inicio','fecha_fin','duracion','mas-info','no-publicado'].includes(intent.type)) {
+  if (['formulario','horarios','requisitos','materiales','sede','fecha_inicio','fecha_fin','duracion','mas-info','no-publicado'].includes(intent.type)) {
     const c = intent.course;
-    // REGLA DURA si usuario nombró título y el curso no admite inscripción
+
+    // REGLA DURA si el curso no admite inscripción y fue nombrado explícitamente
     if (c.estado === 'en_curso')
       return `El curso <strong>${c.titulo}</strong> está en cursada, no admite nuevas inscripciones. Más información <a href="/curso/${encodeURIComponent(c.id)}?y=2025">aquí</a>.`;
     if (c.estado === 'finalizado')
       return `El curso <strong>${c.titulo}</strong> ya finalizó, no podés inscribirte. Más información <a href="/curso/${encodeURIComponent(c.id)}?y=2025">aquí</a>.`;
+
+    if (intent.type === 'formulario') {
+      if (c.estado === 'inscripcion_abierta' && c.formulario) {
+        return `En el curso <strong>${c.titulo}</strong>, te podés inscribir acá: <a href="${c.formulario}" target="_blank" rel="noopener">Inscribirte</a>.<br>${accionesHTML(c)}`;
+      }
+      return `En el curso <strong>${c.titulo}</strong>, la inscripción aún no está habilitada.<br>${accionesHTML(c)}`;
+    }
 
     if (intent.type === 'horarios')
       return `En el curso <strong>${c.titulo}</strong>, los días y horarios son: ${(c.dias_horarios?.length? c.dias_horarios.join(', ') : 'sin horario publicado')}.<br>${accionesHTML(c)}`;
@@ -293,86 +324,64 @@ const renderByIntent = (intent, msg, state) => {
   return null; // sin manejo: dejar al LLM
 };
 
-/* 6) Prompt del sistema (reforzado para estados/acciones/temas) */
+/* 6) Prompt del sistema (LLM solo ve elegibles; prohibiciones estrictas) */
 const THEME_GUIDE = `
 DETECCIÓN SEMÁNTICA DE TEMAS
-- Interpretá "cursos de <tema>" por contexto (sinónimos):
-  • Gastronomía ↔ cocina, panadería, pastelería, alimentos.
-  • Textil ↔ costura, moldería, indumentaria, confección.
-  • Barbería/Peluquería ↔ barbería, corte, peluquería.
-  • Mascotas ↔ mascotas, canina, pet.
-  • Tecnología ↔ celulares, electrónica, reparación.
-- Ordená por pertinencia (título + descripción + actividades).
-- Listados: máx 5 ítems. Formato: "• <titulo> — <Estado> (navigateToCourse:{id})".
-- Podés incluir "En cursada" / "Finalizado" como referencia (NO ofrecer Inscribirte).
-- Solo incluir "Inscribirte (<URL>)" si estado = inscripcion_abierta.
+- Interpretá "cursos de <tema>" por contexto (sinónimos).
+- ORDENAR por pertinencia (título + descripción + actividades).
+- LISTADOS: máx 5 ítems. Formato exactamente:
+  "• <titulo> — <Estado legible> (navigateToCourse:{id})"
+- ACCIONES: Agregá "Inscribirte (<URL>)" SOLO si estado = inscripcion_abierta.
+- PROHIBIDO: incluir cursos en_curso/finalizado en listados, aunque sean relevantes.
 `;
 
 const systemPrompt = `
 
-Eres "Camila", asistente del Ministerio de Trabajo de Jujuy. Respondes SÓLO con la información disponible de los cursos 2025. No inventes.
-NUNCA menciones “JSON”, “base de datos” ni fuentes internas en tus respuestas al usuario.
+Eres "Camila", asistente del Ministerio de Trabajo de Jujuy. Respondes SÓLO con la información disponible de los cursos 2025 cargados. No inventes.
+NUNCA menciones “JSON”, “base de datos” ni fuentes internas.
 
 FORMATO Y ESTILO
 - Fechas: DD/MM/YYYY (Argentina). Si falta: “sin fecha confirmada”.
 - Si no hay localidades: “Este curso todavía no tiene sede confirmada”.
-- Tono natural (no robótico). En respuestas puntuales, inicia así: “En el curso {titulo}, …”.
+- Tono natural (no robótico). Para datos puntuales: “En el curso {titulo}, …”.
 - Evita bloques largos si la pregunta pide un dato puntual.
 
-SIEMPRE INCLUIR ESTADO Y ACCIONES
-- Siempre imprimí: “<titulo> — <Estado legible>”.
-- Estados legibles: Inscripción abierta / Próximo (inscripción aún no habilitada) / En cursada (sin inscripción) / Finalizado (referencia).
-- Agregá “Más info (navigateToCourse:{id})” en cada curso mencionado.
+ESTADO Y ACCIONES (OBLIGATORIO)
+- Cada curso mencionado debe verse “<titulo> — <Estado legible>”.
+- Estados legibles: Inscripción abierta / Próximo (inscripción aún no habilitada).
+- PROHIBIDO incluir “En cursada (sin inscripción)” o “Finalizado (referencia)” en cualquier listado, recomendación o sugerencia.
+- Siempre agregar “Más info (navigateToCourse:{id})”.
 - “Inscribirte (<URL>)” SOLO si estado = inscripcion_abierta.
+
+LISTADOS (tema/localidad/disponibles)
+- Al listar cursos por tema, localidad o “disponibles ahora”, incluir EXCLUSIVAMENTE cursos con estado inscripcion_abierta o proximo.
+- Máximo 5 ítems, con el formato indicado.
 
 MODO CONVERSACIONAL SELECTIVO
 - Si piden un DATO ESPECÍFICO (link/inscripción, fecha, sede, horarios, requisitos, materiales, duración, actividades):
-  • Responde SOLO ese dato en 1–2 líneas, comenzando con “En el curso {titulo}, …”.
-- Si combinan 2 campos, responde en 2 líneas (cada una iniciando “En el curso {titulo}, …”).
-- Usa la ficha corta con estado+acciones si la pregunta es general (“más info”, “detalles”, “información completa”) o ambigua.
+  • Responde SOLO ese dato en 1–2 líneas, iniciando “En el curso {titulo}, …”.
+- “Más info” → entregar ficha corta (título+estado+inicio+localidades+acciones).
 
-REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_completa, otros[])
-- Al listar requisitos:
-  • Incluye SOLO los que están marcados como requeridos (verdaderos):
-    - mayor_18 → “Ser mayor de 18 años”
-    - primaria_completa → “Primaria completa”
-    - secundaria_completa → “Secundaria completa”
-  • Agrega cada elemento de “otros” tal como está escrito.
-  • Si NO hay ninguno y “otros” está vacío → “En el curso {titulo}, no hay requisitos publicados.”
-  • NUNCA digas que “no figuran” si existe al menos un requisito o algún “otros”.
+REQUISITOS
+- Incluir SOLO los que están marcados como requeridos; agregar “otros” tal cual.
 - Si preguntan por un requisito puntual:
   • Si es requerido → “Sí, en el curso {titulo}, se solicita {requisito}.”
-  • Si no está marcado o no existe → “En el curso {titulo}, eso no aparece como requisito publicado.”
+  • Si no está marcado → “En el curso {titulo}, eso no aparece como requisito publicado.”
 
 MICRO-PLANTILLAS
 • Link/Inscripción (solo si estado = inscripcion_abierta):
-  “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
+  “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">Inscribirte</a>.”
 • ¿Cuándo empieza?
   “En el curso {titulo}, se inicia el {fecha_inicio|‘sin fecha confirmada’}.”
-• ¿Cuándo termina?
-  “En el curso {titulo}, finaliza el {fecha_fin|‘sin fecha confirmada’}.”
-• ¿Dónde se dicta? / Sede
+• ¿Dónde se dicta?
   “En el curso {titulo}, se dicta en: {localidades|‘Este curso todavía no tiene sede confirmada’}.”
 • Días y horarios
-  “En el curso {titulo}, los días y horarios son: {lista_dias_horarios|‘sin horario publicado’}.”
-• Requisitos (resumen)
-  “En el curso {titulo}, los requisitos son: {lista_requisitos|‘no hay requisitos publicados’}.”
-• Materiales
-  “En el curso {titulo}, los materiales son: {lista | ‘no hay materiales publicados’}.”
-• Actividades / ¿qué se hace?
-  “En el curso {titulo}, vas a trabajar en: {actividades | ‘no hay actividades publicadas’}.”
+  “En el curso {titulo}, los días y horarios son: {lista|‘sin horario publicado’}.”
 • Duración total
-  “En el curso {titulo}, la duración total es: {duracion_total | ‘no está publicada’}.”
+  “En el curso {titulo}, la duración total es: {duracion_total|‘no está publicada’}.”
 
-REGLA DURA — en_curso / finalizado (solo con mención directa del título)
-- Responde SOLO esta línea (sin nada extra):
-  • en_curso   → “El curso {titulo} está en cursada, no admite nuevas inscripciones. Más información <a href="/curso/{id}?y=2025">aquí</a>.”
-  • finalizado → “El curso {titulo} ya finalizó, no podés inscribirte. Más información <a href="/curso/{id}?y=2025">aquí</a>.”
-
-LISTADOS POR TEMA / PALABRAS CLAVE
-- Si preguntan “cursos de <tema>”, inferí semánticamente usando título+descripción+actividades.
-- Devolvé hasta 5 cursos ordenados por pertinencia; incluí el estado y acciones como arriba.
-- Podés incluir “en cursada”/“finalizado” como referencia (sin link de inscripción).
+REGLA DURA — en_curso / finalizado
+- Si el usuario menciona DIRECTAMENTE el título de un curso que está en_curso o finalizado, debés responder SOLO una línea fija (la maneja el servidor). No intentes detallar nada de esos cursos.
 
 NOTAS
 - No incluyas información que no esté publicada para el curso.
@@ -383,6 +392,27 @@ NOTAS
 /* 0) Memoria en RAM – historial corto (3 turnos) */
 const sessions = new Map();
 // { lastSuggestedCourse: { titulo, formulario }, history: [...] }
+
+/* ===== Sanitizador: eliminar links de inscripción inválidos dentro de la respuesta del LLM ===== */
+const ABRE_LINK_RE = /<a\s+href="(https?:\/\/(?:docs\.google\.com\/forms|forms\.gle)\/[^"]+)"[^>]*>(Inscribirte|inscribirte)<\/a>/i;
+function sanitizeEnrollmentLinksByLine(html) {
+  // Si el LLM se equivoca y pone "Inscribirte" en cursos no abiertos, lo quitamos por línea.
+  const openIds = new Set(cursosElegibles.filter(c => c.estado==='inscripcion_abierta').map(c => String(c.id)));
+  const lines = html.split(/<br\s*\/?>/i);
+  const navIdRe = /navigateToCourse:(\d+)/;
+  const fixed = lines.map(line => {
+    if (!ABRE_LINK_RE.test(line)) return line;
+    const idMatch = line.match(navIdRe);
+    const id = idMatch ? idMatch[1] : null;
+    const isOpen = id ? openIds.has(id) : false;
+    if (isOpen) return line; // permitido
+    // quitar el anchor "Inscribirte"
+    return line
+      .replace(/\s*—\s*<a[^>]+>Inscribirte<\/a>/i, '')
+      .replace(/te pod[ée]s inscribir ac[áa]:\s*<a[^>]+>inscribirte<\/a>\.?/i, 'la inscripción aún no está habilitada.');
+  });
+  return fixed.join('<br>');
+}
 
 /* 7) Endpoint del chatbot */
 app.post('/api/chat', async (req, res) => {
@@ -395,12 +425,11 @@ app.post('/api/chat', async (req, res) => {
   let state = sessions.get(sid);
   if (!state) { state = { history: [], lastSuggestedCourse: null }; sessions.set(sid, state); }
 
-  /* ===== Short-circuit: REGLA DURA solo si hay mención directa del título ===== */
+  /* ===== Short-circuit: REGLA DURA solo si hay mención directa del título y estado bloqueado ===== */
   const duroTarget = cursos.find(c =>
     (c.estado === 'en_curso' || c.estado === 'finalizado') &&
     isDirectTitleMention(userMessage, c.titulo)
   );
-
   if (duroTarget) {
     const enlace = `/curso/${encodeURIComponent(duroTarget.id)}?y=2025`;
     const msg =
@@ -418,22 +447,29 @@ app.post('/api/chat', async (req, res) => {
 
   /* ===== Router determinístico mínimo ===== */
   const intent = detectIntent(userMessage);
-  const routed = renderByIntent(intent, userMessage, state);
+  const routed = renderByIntent(intent);
   if (routed) {
+    // guardar historial
+    const msgOut = sanitizeEnrollmentLinksByLine(routed);
+
     state.history.push({ role: 'user', content: clamp(sanitize(userMessage)) });
-    state.history.push({ role: 'assistant', content: clamp(routed) });
+    state.history.push({ role: 'assistant', content: clamp(msgOut) });
     state.history = state.history.slice(-6);
 
-    // capturar curso y link sugerido SOLO si es un Google Forms
-    const m = routed.match(/<strong>([^<]+)<\/strong>.*?<a href="(https?:\/\/(?:docs\.google\.com\/forms|forms\.gle)\/[^"]+)"/i);
-    if (m) state.lastSuggestedCourse = { titulo: m[1].trim(), formulario: m[2].trim() };
+    // lastSuggestedCourse SOLO si es elegible y abierta
+    const m = msgOut.match(/<strong>([^<]+)<\/strong>.*?<a href="(https?:\/\/(?:docs\.google\.com\/forms|forms\.gle)\/[^"]+)"/i);
+    if (m) {
+      const title = m[1].trim();
+      const course = cursosElegibles.find(c => c.titulo === title && c.estado==='inscripcion_abierta');
+      if (course) state.lastSuggestedCourse = { titulo: course.titulo, formulario: course.formulario };
+    }
 
-    return res.json({ message: routed });
+    return res.json({ message: msgOut });
   }
 
-  /* ===== Hint de candidatos (por título) para el LLM ===== */
-  const candidates = topMatchesByTitle(cursos, userMessage, 3);
-  const matchingHint = { hint: 'Candidatos más probables por título:', candidates };
+  /* ===== Hint de candidatos (por título) para el LLM – SOLO elegibles ===== */
+  const candidates = topMatchesByTitle(cursosElegibles, userMessage, 3);
+  const matchingHint = { hint: 'Candidatos más probables por título (elegibles):', candidates };
 
   /* ===== Construir mensajes para el modelo ===== */
   const messages = [
@@ -458,25 +494,32 @@ app.post('/api/chat', async (req, res) => {
   try {
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
-      temperature: 0.2,
+      temperature: 0.15,
       messages
     });
 
     let aiResponse = (completion.choices?.[0]?.message?.content || '').trim();
 
-    // post-proceso seguro
+    // post-proceso seguro de formato
     aiResponse = aiResponse.replace(/\*\*(\d{1,2}\s+de\s+\p{L}+)\*\*/giu, '$1'); // **15 de junio** → plano
     aiResponse = aiResponse.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');   // **texto** → <strong>
     aiResponse = aiResponse.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+    // BLOQUEAR Inscribirte cuando no corresponde (línea por línea)
+    aiResponse = sanitizeEnrollmentLinksByLine(aiResponse);
 
     // guardar historial (máx 3 turnos)
     state.history.push({ role: 'user', content: clamp(sanitize(userMessage)) });
     state.history.push({ role: 'assistant', content: clamp(aiResponse) });
     state.history = state.history.slice(-6);
 
-    // capturar curso y link sugerido SOLO si es un Google Forms (para “dame el link”)
+    // capturar curso y link sugerido SOLO si es elegible y abierto
     const m = aiResponse.match(/<strong>([^<]+)<\/strong>.*?<a href="(https?:\/\/(?:docs\.google\.com\/forms|forms\.gle)\/[^"]+)"/i);
-    if (m) state.lastSuggestedCourse = { titulo: m[1].trim(), formulario: m[2].trim() };
+    if (m) {
+      const title = m[1].trim();
+      const course = cursosElegibles.find(c => c.titulo === title && c.estado==='inscripcion_abierta');
+      if (course) state.lastSuggestedCourse = { titulo: course.titulo, formulario: course.formulario };
+    }
 
     res.json({ message: aiResponse });
   } catch (err) {
