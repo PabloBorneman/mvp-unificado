@@ -1,0 +1,59 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [ "main" ]  # se ejecuta cuando pusheás a main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código del repo
+        uses: actions/checkout@v4
+
+      - name: Configurar llave SSH y host
+        run: |
+          install -m 600 -D /dev/stdin ~/.ssh/id_ed25519 <<< "${{ secrets.SSH_KEY }}"
+          printf "Host prod\n HostName %s\n User %s\n Port %s\n StrictHostKeyChecking no\n" \
+            "${{ secrets.SSH_HOST }}" "${{ secrets.SSH_USER }}" "${{ secrets.SSH_PORT || '22' }}" \
+            > ~/.ssh/config
+
+      - name: Sincronizar proyecto al servidor (rsync)
+        run: |
+          rsync -az --delete \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude 'node_modules' \
+            --exclude '.env' \
+            ./ prod:/home/deploy/mvp-unificado/
+
+      - name: Instalar deps y reiniciar PM2 en el servidor
+        run: |
+          ssh prod << 'EOF'
+          set -e
+          cd /home/deploy/mvp-unificado
+
+          # deps backend (solo prod)
+          if [ -f package.json ]; then
+            npm i --omit=dev
+          fi
+
+          # Si tenés Angular en /frontend, lo buildea y copia a /public (opcional)
+          if [ -f frontend/package.json ]; then
+            cd frontend
+            npm ci
+            npm run build
+            cd ..
+            mkdir -p public
+            cp -r frontend/dist/* public/ || true
+          fi
+
+          # PM2: reinicia o inicia
+          if pm2 describe mvp-backend > /dev/null; then
+            pm2 restart mvp-backend
+          else
+            pm2 start index.js --name mvp-backend
+          fi
+          pm2 save
+          EOF
