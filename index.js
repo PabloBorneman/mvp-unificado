@@ -248,7 +248,7 @@ MODO CONVERSACIONAL SELECTIVO
 - Si combinan 2 campos, responde en 2 líneas (cada una iniciando “En el curso {titulo}, …”).
 - Usa la ficha completa SOLO si la pregunta es general (“más info”, “detalles”, “información completa”) o ambigua.
 
-REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_completa, otros[])
+REQUISITOS (estructura esperada: mayor_18, primaria_completa, secundaria_completa, otros[],etc)
 - Al listar requisitos:
   • Incluye SOLO los que están marcados como requeridos (verdaderos):
     - mayor_18 → “Ser mayor de 18 años”
