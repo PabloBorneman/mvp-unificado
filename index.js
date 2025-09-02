@@ -7,7 +7,7 @@
 'use strict';
 
 const express = require('express');
-const helmet = require('helmet');
+const helmet  = require('helmet');
 const path    = require('path');
 const dotenv  = require('dotenv');
 const OpenAI  = require('openai');
@@ -16,12 +16,43 @@ const fs      = require('fs');
 /* 1) Entorno */
 dotenv.config();
 
+/* ==== Config pre-lanzamiento (no consumir tokens) ==== */
+// Fecha de lanzamiento oficial (zona horaria AR -03:00)
+const LAUNCH_ISO   = '2025-09-05T00:00:00-03:00';
+const HOLD_UNTIL   = new Date(LAUNCH_ISO);
+// Bandera para forzar el modo “hold” (1 = activo)
+const FORCE_HOLD   = process.env.FORCE_HOLD === '1';
+// Función de control
+const isBeforeLaunch = () => {
+  if (FORCE_HOLD) return true;
+  const now = new Date();
+  return now < HOLD_UNTIL;
+};
+// Mensaje único (HTML) que se devuelve durante el hold
+const PRELAUNCH_MSG_HTML =
+  `<div style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; line-height:1.45;">
+    <p style="margin:0 0 .5rem 0; font-size:1rem;">
+      <strong>¡Gracias por tu interés!</strong> 😊
+    </p>
+    <p style="margin:.25rem 0;">
+      Las respuestas del asistente <strong>Camila</strong> estarán disponibles a partir del
+      <strong>5 de septiembre de 2025</strong> (lanzamiento oficial).
+    </p>
+    <p style="margin:.25rem 0;">
+      El <strong>bot de WhatsApp</strong> y los <strong>links de inscripción</strong> también se habilitarán en esa fecha.
+    </p>
+    <p style="margin:.25rem 0;">
+      Mientras tanto, podés explorar la información general del sitio. 🙌
+    </p>
+  </div>`;
+
 /* 2) App */
 const app = express();
 app.use(express.json({ limit: '1mb' }));
 app.use(express.static(path.join(__dirname, 'public'))); // build Angular
 app.disable('x-powered-by'); // oculta Express
 app.use(helmet({ contentSecurityPolicy: false })); // headers seguros (sin CSP estricta por ahora)
+
 /* 3) OpenAI */
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -262,18 +293,32 @@ NOTAS
 - No incluyas información que no esté publicada para el curso.
 - No prometas certificados ni vacantes si no están publicados.
 
-
 `;
 
 /* 0) Memoria en RAM – historial corto (3 turnos) */
 const sessions = new Map();
 // { lastSuggestedCourse: { titulo, formulario }, history: [...] }
 
+/* === Endpoint de estado (opcional para el front) === */
+app.get('/api/status', (_, res) => {
+  res.json({
+    prelaunch: isBeforeLaunch(),
+    launch_at: LAUNCH_ISO,
+    message_html: PRELAUNCH_MSG_HTML
+  });
+});
+
 /* 7) Endpoint del chatbot */
 app.post('/api/chat', async (req, res) => {
   const userMessageRaw = (req.body.message || '');
   const userMessage = userMessageRaw.trim();
   if (!userMessage) return res.status(400).json({ error: 'Mensaje vacío' });
+
+  // 🔒 Guard clause: modo pre-lanzamiento (NO tokens)
+  if (isBeforeLaunch()) {
+    // No se persiste historial ni se llama a OpenAI
+    return res.json({ message: PRELAUNCH_MSG_HTML });
+  }
 
   // identificar sesión
   const sid = req.headers['x-session-id'] || req.ip;
@@ -364,4 +409,5 @@ app.get('*', (_, res) =>
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`🔒 Pre-lanzamiento: ${isBeforeLaunch() ? 'ACTIVO' : 'INACTIVO'} (cambia con FORCE_HOLD=1 o llegada a ${LAUNCH_ISO})`);
 });
