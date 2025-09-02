@@ -104,13 +104,13 @@
   },
   {
     "id": 3,
-    "titulo": "Peluquería y Barbería Profesional",
+    "titulo": "Peluquería y Barbería Básica",
     "descripcion_breve": "Transforma estilos y crea tendencias. Aprende a cortar, colorear y diseñar looks impactantes.",
     "descripcion_completa": "En este curso aprenderás las técnicas y habilidades necesarias para dominar los cortes, colores y estilos más actuales de peluquería y barbería. Aprenderás a utilizar herramientas y productos de manera efectiva. Está destinado a adolescentes y personas adultas que posean el uso motriz de su cuerpo.",
     "actividades": "Cortes de cabello y barba, coloración y mechas, estilismo y diseño de look. Prácticas con modelos dentro y fuera de la institución: escuela secundaria, ONG, centro vecinal y toda entidad pública o gubernamental.",
-    "duracion_total": "7 meses",
+    "duracion_total": "2 meses",
     "fecha_inicio": "2025-06-03",
-    "fecha_fin": "2025-12-31",
+    "fecha_fin": "2025-08-31",
     "frecuencia_semanal": 2,
     "duracion_clase_horas": [3],
     "dias_horarios": ["Martes de 16:00 a 19:00", "Miércoles de 16:00 a 19:00"],
@@ -166,7 +166,7 @@
   },
   {
     "id": 4,
-    "titulo": "Moldería y Confección de Vestimenta Colonial",
+    "titulo": "Corte y confección de disfraces para etapa escolar",
     "descripcion_breve": "Curso teórico-práctico de costura y confección para producir indumentaria escolar inspirada en la época colonial argentina.",
     "descripcion_completa": "El curso “Producción de moldería, corte y confección de vestimenta de la época colonial para etapa escolar” está destinado a personas interesadas en aprender técnicas básicas y específicas de costura orientadas a la confección de prendas históricas. Se propone brindar herramientas prácticas para desarrollar vestimenta como trajes de paisanas, damas antiguas y caballeros coloniales, utilizados en actos escolares. Se enseñará la realización de moldes, trazado y corte de piezas, tipos de telas, armado, costura y terminaciones, usando métodos manuales y máquina de coser. También se abordará la creatividad para adaptaciones, y se fomentará el emprendimiento textil temático.",
     "actividades": "Toma de medidas, confección de moldes base, corte de telas, armado de prendas (camisas, polleras, chalecos, pantalones), técnicas de costura a mano y máquina, adaptación de moldes, decoración con volados y terminaciones estéticas. Producción individual y grupal, con trabajo práctico final de una prenda completa.",
@@ -177,12 +177,12 @@
     "duracion_clase_horas": [4],
     "dias_horarios": ["Miércoles de 17:00 a 21:00", "Viernes de 17:00 a 21:00"],
     "localidades": ["Perico"],
-    "direcciones": ["Perico – Dirección a confirmar"],
+    "direcciones": ["Perico"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": ["Ser mayor de 15 años"]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -215,14 +215,14 @@
     "dias_horarios": ["Lunes de 09:00 a 12:00", "Martes de 09:00 a 12:00"],
     "localidades": ["Perico", "San Salvador de Jujuy"],
     "direcciones": [
-      "Perico – Dirección a confirmar",
-      "San Salvador de Jujuy – Dirección a confirmar"
+      "Perico",
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": ["Ser mayor de 15 años"]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -255,7 +255,7 @@
     "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
     "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
     "direcciones": [
-      "San Salvador de Jujuy – Dirección a confirmar",
+      "San Salvador de Jujuy",
       "Otras localidades según requerimiento"
     ],
     "requisitos": {
@@ -299,7 +299,7 @@
     ],
     "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
     "direcciones": [
-      "San Salvador de Jujuy – Dirección a confirmar",
+      "San Salvador de Jujuy",
       "Otras localidades según requerimiento"
     ],
     "requisitos": {
@@ -342,7 +342,7 @@
     ],
     "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
     "direcciones": [
-      "San Salvador de Jujuy – Dirección a confirmar",
+      "San Salvador de Jujuy",
       "Otras localidades según requerimiento"
     ],
     "requisitos": {
@@ -382,7 +382,7 @@
     "duracion_clase_horas": [2],
     "dias_horarios": ["Miércoles de 14:00 a 16:00", "Viernes de 14:00 a 16:00"],
     "localidades": ["Monterrico"],
-    "direcciones": ["Monterrico – Dirección a confirmar"],
+    "direcciones": ["Monterrico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
@@ -422,7 +422,7 @@
     "duracion_clase_horas": [2],
     "dias_horarios": ["Martes de 16:00 a 18:00", "Jueves de 16:00 a 18:00"],
     "localidades": ["San Salvador de Jujuy"],
-    "direcciones": ["San Salvador de Jujuy – Dirección a confirmar"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
@@ -461,7 +461,7 @@
     "duracion_clase_horas": [4],
     "dias_horarios": ["Jueves de 13:00 a 17:00"],
     "localidades": ["San Salvador de Jujuy"],
-    "direcciones": ["Necochea 465, Local 5 – San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
@@ -470,7 +470,7 @@
     },
     "materiales": {
       "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
-      "entrega_curso": ["Cartilla con el desarrollo de cada clase"]
+      "entrega_curso": ["Cartilla con el desarrollo de cada clase en formato pdf"]
     },
     "formulario": "https://forms.gle/link-inscripcion-reparacion-celulares",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
@@ -576,7 +576,7 @@
       "primaria_completa": false,
       "secundaria_completa": false,
       "otros": [
-        "Ser mayor de 16 años",
+        "Ser mayor de 18 años",
         "No se requieren conocimientos previos en gastronomía",
         "Interés en trabajar en un entorno de cocina y seguir normas de seguridad e higiene"
       ]
@@ -655,7 +655,7 @@
     "duracion_clase_horas": [2.25],
     "dias_horarios": ["Martes y Jueves de 16:00 a 18:15"],
     "localidades": ["Libertador General San Martín"],
-    "direcciones": ["Libertador General San Martín – Dirección a confirmar"],
+    "direcciones": ["Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
