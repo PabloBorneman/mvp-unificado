@@ -253,10 +253,9 @@
     "frecuencia_semanal": 2,
     "duracion_clase_horas": [3],
     "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
-    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
-      "San Salvador de Jujuy",
-      "Otras localidades según requerimiento"
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
@@ -297,10 +296,9 @@
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
-      "San Salvador de Jujuy",
-      "Otras localidades según requerimiento"
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
@@ -340,10 +338,9 @@
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": ["San Salvador de Jujuy", "Localidades que lo requieran"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
-      "San Salvador de Jujuy",
-      "Otras localidades según requerimiento"
+      "San Salvador de Jujuy"
     ],
     "requisitos": {
       "mayor_18": true,
