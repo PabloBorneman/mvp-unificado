@@ -43,9 +43,7 @@
         "Gafas",
         "Ropa de trabajo"
       ],
-      "entrega_curso": [
-        "Cartilla digital"
-      ]
+      "entrega_curso": ["Cartilla digital"]
     },
     "formulario": "https://forms.gle/link-de-inscripcion",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
@@ -207,10 +205,7 @@
     "duracion_clase_horas": [4],
     "dias_horarios": ["Lunes de 09:00 a 12:00", "Martes de 09:00 a 12:00"],
     "localidades": ["Perico", "San Salvador de Jujuy"],
-    "direcciones": [
-      "Perico",
-      "San Salvador de Jujuy"
-    ],
+    "direcciones": ["Perico", "San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
@@ -247,9 +242,7 @@
     "duracion_clase_horas": [3],
     "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
     "localidades": ["San Salvador de Jujuy"],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -290,9 +283,7 @@
       "Miércoles de 15:00 a 18:00"
     ],
     "localidades": ["San Salvador de Jujuy"],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -313,7 +304,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-flores-textil",
     "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
-    "estado": "inscripcion_abierta"
+    "estado": "proximo"
   },
   {
     "id": 8,
@@ -332,9 +323,7 @@
       "Miércoles de 15:00 a 18:00"
     ],
     "localidades": ["San Salvador de Jujuy"],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -460,7 +449,9 @@
     },
     "materiales": {
       "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
-      "entrega_curso": ["Cartilla con el desarrollo de cada clase en formato pdf"]
+      "entrega_curso": [
+        "Cartilla con el desarrollo de cada clase en formato pdf"
+      ]
     },
     "formulario": "https://forms.gle/link-inscripcion-reparacion-celulares",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
@@ -666,5 +657,246 @@
     "formulario": "https://forms.gle/link-inscripcion-barberia-observatorio",
     "imagen": "assets/img/cursos2025/barberia_observatorio_2025.webp",
     "estado": "finalizado"
+  },
+  {
+    "id": 17,
+    "titulo": "Soldadura",
+    "descripcion_breve": "En este curso aprenderás el uso correcto de herramientas y materiales básicos de soldadura aplicados a herrería.",
+    "descripcion_completa": "La Soldadura ofrece múltiples beneficios para los participantes: desarrollo de habilidades manuales y creativas, mejora de la autoestima y la confianza, fomentando la innovación y el diseño utilizando materiales reciclables. Se aprenderá el uso de herramientas, respetando las normas de seguridad, así como los diferentes materiales necesarios para la creación de parrillas, braseros, porta maceteros, asadores, discos, entre otros. El curso está destinado a personas mayores de edad, con el fin de aprender y ejercer lo aprendido para una salida laboral independiente.",
+    "actividades": "Se realizarán trabajos prácticos como parrillas, braseros, porta maceteros, asadores, discos y más.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-17",
+    "fecha_fin": "2025-11-15",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 14:00 a 17:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
+    },
+    "materiales": {
+      "aporta_estudiante": ["Se solicitarán a medida que avance el curso"],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-soldadura",
+    "imagen": "assets/img/cursos2025/soldadura_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 18,
+    "titulo": "Inglés Básico para Atención al Cliente",
+    "descripcion_breve": "Un curso práctico e ideal que abre las puertas de la comunicación en el mundo laboral.",
+    "descripcion_completa": "El curso de Inglés para atención al público tiene por objetivo desarrollar competencias comunicativas básicas en lengua inglesa aplicadas a situaciones reales de atención al cliente en diferentes ámbitos laborales. La propuesta ofrece aprendizaje de vocabulario específico, expresiones de cortesía y prácticas de simulación para mejorar la calidad del servicio en entornos donde la interacción con clientes de habla inglesa es frecuente. Está destinado a personas que se desempeñan o desean desempeñarse en el área de servicio y atención al cliente. Los objetivos incluyen: brindar herramientas comunicativas para atender clientes en situaciones habituales de trabajo, desarrollar vocabulario específico de servicio al cliente, practicar estructuras básicas para saludar, ofrecer ayuda, resolver consultas, manejar quejas y cerrar interacciones de manera cordial, y generar seguridad y fluidez en interacciones breves y prácticas.",
+    "actividades": "Juegos de roles en pareja y grupo, elaboración de glosario personal de frases útiles, simulación de reclamos y soluciones, grabaciones cortas de diálogos, clases interactivas con prácticas orales intensivas. Evaluación formativa mediante participación en clase y final con simulación real de atención al cliente (oral).",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-09-15",
+    "fecha_fin": "2025-12-17",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Lunes de 14:00 a 17:00", "Miércoles de 14:00 a 17:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Oficina de Empleo de la Municipalidad de Perico"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo en inglés"]
+    },
+    "materiales": {
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
+      "entrega_curso": [
+        "Cartilla de Inglés Básico para Atención al Cliente en PDF"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-ingles-atencion-cliente",
+    "imagen": "assets/img/cursos2025/ingles_basico_cliente_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 19,
+    "titulo": "Oratoria",
+    "descripcion_breve": "Un programa integral orientado al desarrollo de la inteligencia emocional y habilidades blandas esenciales para la empleabilidad y el emprendedurismo.",
+    "descripcion_completa": "Este curso propone un recorrido formativo teórico–práctico que combina aportes de la Inteligencia Emocional con el fortalecimiento de habilidades blandas fundamentales en los contextos laborales y sociales actuales. A través de una metodología participativa y experiencial, los participantes trabajarán en la gestión de emociones, comunicación efectiva, resiliencia, empatía, liderazgo y pensamiento crítico, con el objetivo de mejorar su desempeño en la búsqueda de empleo, entrevistas, liderazgo de equipos y proyectos emprendedores. Destinado a personas mayores de 18 años interesadas en optimizar su desarrollo personal y profesional, independientemente de su formación previa.",
+    "actividades": "Exposiciones dialogadas, dinámicas grupales, estudios de caso, role-playing de entrevistas y negociaciones, elaboración de CV y carta de presentación, diseño de un elevator pitch personal o emprendedor, construcción de un plan de desarrollo personal y profesional.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-15",
+    "fecha_fin": "2025-11-12",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI", "No se requieren estudios previos"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Cuaderno o carpeta para apuntes",
+        "Dispositivo con acceso a internet"
+      ],
+      "entrega_curso": [
+        "Manual del participante (PDF)",
+        "Plantillas de CV y carta de presentación (PDF)",
+        "Materiales para ejercicios de role-playing (PDF)",
+        "Recursos digitales complementarios (PDF)"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-oratoria",
+    "imagen": "assets/img/cursos2025/oratoria_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 20,
+    "titulo": "Construcción en Seco",
+    "descripcion_breve": "Capacitación en tabiques y cielorrasos con placas de yeso cartón: construcción más rápida, limpia y eficiente.",
+    "descripcion_completa": "Construcción en seco se refiere a los materiales y sistemas utilizados para construir estructuras sin mezclas húmedas como cemento o mortero, sino mediante elementos prefabricados que se ensamblan mecánicamente. Los componentes principales incluyen perfiles de acero galvanizado y placa de yeso. Este método es más rápido, limpio y eficiente en costos y consumo energético que la construcción tradicional. Durante el curso se enseñará a manejar herramientas de trabajo, conocer el uso correcto de materiales, aplicar normas de seguridad, y realizar prácticas de construcción de tabiques y cielorrasos. Se estudiarán las normas de seguridad, propiedades de materiales y su aplicación específica, complementado con ejercicios prácticos de armado de paredes con y sin puertas, y cielorrasos de distintas características.",
+    "actividades": "Clases teóricas sobre normas de seguridad y propiedades de materiales; prácticas de construcción de paredes divisorias y cielorrasos con placas de yeso cartón; uso correcto de herramientas y técnicas de montaje.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-16",
+    "fecha_fin": "2025-11-13",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 18:00 a 21:00", "Jueves de 18:00 a 21:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Martin 260 – San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Trincheta de metal",
+        "Cinta métrica",
+        "Punta Philips PH2 larga (60mm)",
+        "Pinza perra",
+        "Nivel de mano",
+        "Taladro (opcional)"
+      ],
+      "entrega_curso": []
+    },
+    "formulario": "https://forms.gle/link-inscripcion-construccion-seco",
+    "imagen": "assets/img/cursos2025/construccion_seco_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 21,
+    "titulo": "Polarizado Vidrio Automotor",
+    "descripcion_breve": "Capacitación práctica en técnicas de corte, moldeado e instalación de láminas polarizadas en vehículos.",
+    "descripcion_completa": "El curso capacita a los participantes para desarrollar técnicas de corte, moldeado e instalación de láminas polarizadas en vidrios automotores. Está destinado al público en general, con o sin experiencia previa, que desee aprender un oficio con rápida salida laboral. Se trabajará en el reconocimiento de herramientas adecuadas y la aplicación de tips y técnicas que primero se abordan en teoría y luego en la práctica, evacuando dudas para garantizar una formación sólida. Al finalizar, el alumno contará con herramientas para insertarse en el mercado laboral o emprender su propio negocio desde casa.",
+    "actividades": "Clases teóricas sobre técnicas de polarizado, herramientas y tips prácticos; prácticas en vehículos para aplicar corte, moldeado e instalación de láminas; resolución de dudas y trabajos supervisados.",
+    "duracion_total": "1 mes y medio",
+    "fecha_inicio": "2025-09-19",
+    "fecha_fin": "2025-11-30",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 18:00 a 21:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["Ramirez de Velazco 359 – San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI", "Con o sin experiencia en polarizados"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Papel/servilleta (rollo)",
+        "Pulverizador",
+        "Cinta métrica",
+        "Cutter",
+        "Franela naranja (preferentemente)",
+        "Tarjeta tipo SUBE en desuso",
+        "Talco común",
+        "Shampoo (para preparar solución jabonosa)",
+        "Guante de hilo"
+      ],
+      "entrega_curso": ["Cartilla Polarizado Vidrio Automotor (PDF)"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-polarizado",
+    "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 22,
+    "titulo": "Soldadura Artística (Parte II)",
+    "descripcion_breve": "Combinación de técnicas de soldadura por arco eléctrico con carpintería básica y nuevos materiales como la madera.",
+    "descripcion_completa": "Este curso profundiza las técnicas aprendidas en la Parte I de Soldadura Artística, incorporando la combinación con carpintería básica. Se abordarán temas de seguridad e higiene en el taller, perfeccionamiento en técnicas de soldadura, fabricación de herramientas manuales, ejecución de puntos de soldadura y selección de puntos de fusión de distintos tipos de hierro. Además, se trabajará en el diseño, terminaciones y acabados aplicando tanto soldadura como carpintería. Destinado a personas mayores de 18 años con conocimientos previos en soldadura que deseen ampliar su oficio.",
+    "actividades": "Diseño y ejecución de planos a escala, selección de materiales (hierro y madera), realización de carpetas técnicas con planos y guías, construcción de trabajos finales en medidas reales, cálculo de costos de mano de obra.",
+    "duracion_total": "2 meses",
+    "fecha_inicio": "2025-09-17",
+    "fecha_fin": "2025-11-14",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 09:00 a 11:00", "Viernes de 09:00 a 11:00"],
+    "localidades": ["Abra Pampa"],
+    "direcciones": ["Abra Pampa y zonas aledañas"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": [
+        "Conocimiento previo en soldadura",
+        "Disponibilidad horaria para prácticas"
+      ]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpetas",
+        "Reglas",
+        "Lápiz",
+        "Lapicera",
+        "Elementos de protección personal"
+      ],
+      "entrega_curso": [
+        "Material de lectura Soldadura Artística Parte II (PDF)"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-soldadura-artistica-2",
+    "imagen": "assets/img/cursos2025/soldadura_artistica_parte2_2025.webp",
+    "estado": "proximo"
+  },
+  {
+    "id": 23,
+    "titulo": "Barista y Arte en Latte",
+    "descripcion_breve": "Curso práctico para aprender a preparar y servir café de alta calidad en entornos profesionales.",
+    "descripcion_completa": "Este curso enseña las habilidades y técnicas necesarias para preparar y servir café de alta calidad en un entorno de cafetería o restaurante. Se abordarán: historia y cultura del café, tipos de café y sus características, técnicas de preparación (espresso, latte, cappuccino, etc.), uso de equipos (máquina de espresso, prensa francesa, etc.), diseño y presentación de bebidas, servicio al cliente y atención en el mostrador. La dinámica es 100% práctica con acompañamiento teórico. En la última clase se evaluará teoría y práctica. El objetivo es brindar las competencias para desempeñarse como barista profesional y ofrecer una experiencia de café de calidad. Destinado a mayores de 18 años con ganas de sumergirse en la cultura del café, sin requerir conocimientos previos.",
+    "actividades": "Preparación de diferentes tipos de café (espresso, latte, cappuccino), prácticas con equipos de cafetería, diseño y presentación de bebidas, simulación de servicio al cliente, evaluación final teórico-práctica.",
+    "duracion_total": "4 meses",
+    "fecha_inicio": "2025-06-05",
+    "fecha_fin": "2025-09-25",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3, 4],
+    "dias_horarios": [
+      "Jueves de 10:00 a 13:00 (Comisión 1)",
+      "Jueves de 15:00 a 19:00 (Comisión 2)"
+    ],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI", "No se requieren conocimientos previos"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpeta",
+        "Lapicera",
+        "Otros materiales solicitados por el capacitador"
+      ],
+      "entrega_curso": ["Material sobre Barista y Arte en Latte (PDF)"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-barista",
+    "imagen": "assets/img/cursos2025/barista_latte_2025.webp",
+    "estado": "en_curso"
   }
 ]
