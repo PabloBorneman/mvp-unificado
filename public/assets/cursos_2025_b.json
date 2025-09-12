@@ -9,18 +9,13 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-19",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Lunes y jueves de 15:00 a 18:00",
       "Martes y miércoles de 15:00 a 18:00",
       "Sábados de 09:00 a 13:00 y de 14:00 a 18:00"
     ],
-    "localidades": [
-      "Alto Comedero"
-    ],
+    "localidades": ["Alto Comedero"],
     "direcciones": [
       "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero",
       "C.P.V. Combate – 30 Hectáreas – Alto Comedero"
@@ -48,16 +43,11 @@
         "Gafas",
         "Ropa de trabajo"
       ],
-      "entrega_curso": [
-        "Cartilla digital"
-      ]
+      "entrega_curso": ["Cartilla digital"]
     },
     "formulario": "https://forms.gle/link-de-inscripcion",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 2,
@@ -69,27 +59,15 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 9:00 a 13:00",
-      "Jueves de 9:00 a 13:00"
-    ],
-    "localidades": [
-      "Alto Comedero"
-    ],
-    "direcciones": [
-      "CIC Che Guevara – Alto Comedero – San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 9:00 a 13:00", "Jueves de 9:00 a 13:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero – San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Fotocopia de DNI",
-        "Predisposición para aprender"
-      ]
+      "otros": ["Fotocopia de DNI", "Predisposición para aprender"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -113,10 +91,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-ayudante-panaderia",
     "imagen": "assets/img/cursos2025/ayudante_panaderia_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 3,
@@ -128,16 +103,9 @@
     "fecha_inicio": "2025-06-03",
     "fecha_fin": "2025-08-31",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Martes de 16:00 a 19:00",
-      "Miércoles de 16:00 a 19:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 16:00 a 19:00", "Miércoles de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
       "Centro Cultural – Ministerio de Desarrollo Humano – San Salvador de Jujuy"
     ],
@@ -145,9 +113,7 @@
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Poseer uso motriz de su cuerpo"
-      ]
+      "otros": ["Poseer uso motriz de su cuerpo"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -187,10 +153,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-peluqueria-barberia",
     "imagen": "assets/img/cursos2025/peluqueria_barberia_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 4,
@@ -202,26 +165,15 @@
     "fecha_inicio": "2025-07-11",
     "fecha_fin": "2025-09-10",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 17:00 a 21:00",
-      "Viernes de 17:00 a 21:00"
-    ],
-    "localidades": [
-      "Perico"
-    ],
-    "direcciones": [
-      "Perico"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 17:00 a 21:00", "Viernes de 17:00 a 21:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Perico"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Ser mayor de 18 años"
-      ]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -238,10 +190,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-molderia-colonial",
     "imagen": "assets/img/cursos2025/molderia_colonial_2025.webp",
-    "estado": "en_curso",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "en_curso"
   },
   {
     "id": 5,
@@ -253,28 +202,15 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-21",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Lunes de 09:00 a 12:00",
-      "Martes de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "Perico",
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "Perico",
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 09:00 a 12:00", "Martes de 09:00 a 12:00"],
+    "localidades": ["Perico", "San Salvador de Jujuy"],
+    "direcciones": ["Perico", "San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Ser mayor de 18 años"
-      ]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -291,10 +227,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-indumentaria-mascotas",
     "imagen": "assets/img/cursos2025/indumentaria_mascotas_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 6,
@@ -306,19 +239,10 @@
     "fecha_inicio": "2025-08-01",
     "fecha_fin": "2025-09-30",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Jueves de 16:00 a 19:00",
-      "Viernes de 16:00 a 19:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -340,10 +264,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-indumentaria-canina",
     "imagen": "assets/img/cursos2025/indumentaria_canina_2025.webp",
-    "estado": "en_curso",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "en_curso"
   },
   {
     "id": 7,
@@ -355,20 +276,14 @@
     "fecha_inicio": "2025-10-01",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3
-    ],
+    "duracion_clase_horas": [3],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00",
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -389,10 +304,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSexVnHigwm36jOuuZQiPh6tcjicTmbWhQ5ytQlBRj9ADc9PLw/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/flores_textil_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 8,
@@ -404,20 +316,14 @@
     "fecha_inicio": "2025-08-01",
     "fecha_fin": "2025-09-30",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3
-    ],
+    "duracion_clase_horas": [3],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00",
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -440,10 +346,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-sublimacion-artesanal",
     "imagen": "assets/img/cursos2025/sublimacion_artesanal_2025.webp",
-    "estado": "en_curso",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "en_curso"
   },
   {
     "id": 9,
@@ -455,26 +358,15 @@
     "fecha_inicio": "2025-04-03",
     "fecha_fin": "2025-05-31",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Miércoles de 14:00 a 16:00",
-      "Viernes de 14:00 a 16:00"
-    ],
-    "localidades": [
-      "Monterrico"
-    ],
-    "direcciones": [
-      "Monterrico"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 14:00 a 16:00", "Viernes de 14:00 a 16:00"],
+    "localidades": ["Monterrico"],
+    "direcciones": ["Monterrico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Interés en oficios textiles y producción artesanal"
-      ]
+      "otros": ["Interés en oficios textiles y producción artesanal"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -494,10 +386,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-tejido-artesanal",
     "imagen": "assets/img/cursos2025/tejido_artesanal_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 10,
@@ -509,26 +398,15 @@
     "fecha_inicio": "2025-05-08",
     "fecha_fin": "2025-07-04",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Martes de 16:00 a 18:00",
-      "Jueves de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Martes de 16:00 a 18:00", "Jueves de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Interés por los oficios productivos y las economías populares"
-      ]
+      "otros": ["Interés por los oficios productivos y las economías populares"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -547,10 +425,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-marroquineria-mascotas",
     "imagen": "assets/img/cursos2025/marroquineria_mascotas_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 11,
@@ -562,42 +437,25 @@
     "fecha_inicio": "2025-09-18",
     "fecha_fin": "2025-10-18",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Jueves de 13:00 a 17:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Sin conocimientos previos en electrónica"
-      ]
+      "otros": ["Sin conocimientos previos en electrónica"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Celulares a reparar",
-        "Lapicera",
-        "Cuadernillo"
-      ],
+      "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
       "entrega_curso": [
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScxigARmC9m8LFPe9MzHUfBmcK3G6WGyShne4d1uElFBJQPgA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 20
+    "estado": "cupo_completo"
   },
   {
     "id": 12,
@@ -609,10 +467,7 @@
     "fecha_inicio": "2025-06-19",
     "fecha_fin": "2025-07-19",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00 (C.I.C Che Guevara)",
       "Martes de 15:00 a 18:00 (C.I.C Che Guevara y C.P.V Combate)",
@@ -620,9 +475,7 @@
       "Sábados de 09:00 a 13:00 (C.I.C Che Guevara)",
       "Sábados de 14:00 a 18:00 (C.P.V Combate)"
     ],
-    "localidades": [
-      "Alto Comedero"
-    ],
+    "localidades": ["Alto Comedero"],
     "direcciones": [
       "C.P.V. Combate – 30 Hectáreas – Alto Comedero",
       "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero"
@@ -634,22 +487,14 @@
       "otros": []
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Guantes",
-        "Gafas",
-        "Ropa de trabajo",
-        "Barbijo"
-      ],
+      "aporta_estudiante": ["Guantes", "Gafas", "Ropa de trabajo", "Barbijo"],
       "entrega_curso": [
         "Materiales para prácticas según disponibilidad en obra"
       ]
     },
     "formulario": "https://forms.gle/link-inscripcion-albanileria-mujeres",
     "imagen": "assets/img/cursos2025/albanileria_mujeres_practicas_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 13,
@@ -661,19 +506,10 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Lunes de 08:00 a 12:00",
-      "Viernes de 08:00 a 12:00"
-    ],
-    "localidades": [
-      "San Pedrito"
-    ],
-    "direcciones": [
-      "Centro Vecinal San Francisco de Alava – San Pedrito"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 08:00 a 12:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["San Pedrito"],
+    "direcciones": ["Centro Vecinal San Francisco de Alava – San Pedrito"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
@@ -696,18 +532,11 @@
         "Delantal",
         "Cofia"
       ],
-      "entrega_curso": [
-        "Horno",
-        "Anafe",
-        "Recetarios en formato PDF"
-      ]
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
     },
     "formulario": "https://forms.gle/link-inscripcion-panaderia-artesanal",
     "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 14,
@@ -719,19 +548,10 @@
     "fecha_inicio": "2025-05-21",
     "fecha_fin": "2025-07-18",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 15:00 a 19:00",
-      "Viernes de 08:00 a 12:00"
-    ],
-    "localidades": [
-      "Alto Comedero"
-    ],
-    "direcciones": [
-      "CIC Che Guevara – Alto Comedero"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 15:00 a 19:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
@@ -752,18 +572,11 @@
         "Delantal",
         "Cofia"
       ],
-      "entrega_curso": [
-        "Horno",
-        "Anafe",
-        "Recetarios en formato PDF"
-      ]
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
     },
     "formulario": "https://forms.gle/link-inscripcion-cocina-regional",
     "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 15,
@@ -775,19 +588,10 @@
     "fecha_inicio": "2025-06-05",
     "fecha_fin": "2025-09-25",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Jueves de 09:00 a 13:00",
-      "Jueves de 15:00 a 19:00"
-    ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Municipalidad de Libertador General San Martín"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 09:00 a 13:00", "Jueves de 15:00 a 19:00"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Municipalidad de Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
@@ -813,16 +617,11 @@
         "Guantes de nitrilo",
         "Condimentos y hierbas"
       ],
-      "entrega_curso": [
-        "Cartilla impresa (también en PDF vía WhatsApp)"
-      ]
+      "entrega_curso": ["Cartilla impresa (también en PDF vía WhatsApp)"]
     },
     "formulario": "https://forms.gle/link-inscripcion-ayudante-cocina-hoteleria",
     "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
-    "estado": "en_curso",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "en_curso"
   },
   {
     "id": 16,
@@ -834,18 +633,10 @@
     "fecha_inicio": "2025-05-06",
     "fecha_fin": "2025-07-22",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2.25
-    ],
-    "dias_horarios": [
-      "Martes y Jueves de 16:00 a 18:15"
-    ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Libertador General San Martín"
-    ],
+    "duracion_clase_horas": [2.25],
+    "dias_horarios": ["Martes y Jueves de 16:00 a 18:15"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -865,10 +656,7 @@
     },
     "formulario": "https://forms.gle/link-inscripcion-barberia-observatorio",
     "imagen": "assets/img/cursos2025/barberia_observatorio_2025.webp",
-    "estado": "finalizado",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "finalizado"
   },
   {
     "id": 17,
@@ -880,40 +668,23 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-15",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Miércoles de 14:00 a 17:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 14:00 a 17:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Se solicitarán a medida que avance el curso"
-      ],
+      "aporta_estudiante": ["Se solicitarán a medida que avance el curso"],
       "entrega_curso": []
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfKuX5eZ-G4iPi8i4OJJMioa5dTFw-1E0-QIdvGmyyBQgGtRg/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/soldadura_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 18,
@@ -925,43 +696,25 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-12-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Lunes de 14:00 a 17:00",
-      "Miércoles de 14:00 a 17:00"
-    ],
-    "localidades": [
-      "Perico"
-    ],
-    "direcciones": [
-      "Oficina de Empleo de la Municipalidad de Perico"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Lunes de 14:00 a 17:00", "Miércoles de 14:00 a 17:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Oficina de Empleo de la Municipalidad de Perico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo en inglés"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo en inglés"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Cuaderno",
-        "Lapicera"
-      ],
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
       "entrega_curso": [
         "Cartilla de Inglés Básico para Atención al Cliente en PDF"
       ]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdGgHePKr8d0HVjV2Ryl1VhcMaMoVu8yU7qyi2cMkHiALX8IA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/ingles_basico_cliente_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 19,
@@ -973,27 +726,15 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-11-12",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Lunes de 16:00 a 18:00",
-      "Miércoles de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "No se requieren estudios previos"
-      ]
+      "otros": ["Fotocopia de DNI", "No se requieren estudios previos"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1009,10 +750,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdMc8zcgjnMFtqJaLlZl1uqyOJlGoZ4mTswZAMRNj3c5Iy22g/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/oratoria_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 20,
@@ -1024,27 +762,15 @@
     "fecha_inicio": "2025-09-16",
     "fecha_fin": "2025-11-13",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Martes de 18:00 a 21:00",
-      "Jueves de 18:00 a 21:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Martin 260 – San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 18:00 a 21:00", "Jueves de 18:00 a 21:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Martin 260 – San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1059,10 +785,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScONfuvkXhIoRUvZuavzskjW-OR6Y7sdfx9ENmdHzgCsZIvuA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/construccion_seco_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 21,
@@ -1074,16 +797,9 @@
     "fecha_inicio": "2025-09-19",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Viernes de 16:00 a 19:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 16:00 a 19:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
       "Clase teórica: San Martín 260 – San Salvador de Jujuy",
       "Clase práctica: Ramírez de Velazco 359 – San Salvador de Jujuy"
@@ -1092,10 +808,7 @@
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Con o sin experiencia en polarizados"
-      ]
+      "otros": ["Fotocopia de DNI", "Con o sin experiencia en polarizados"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1109,16 +822,11 @@
         "Shampoo (para preparar solución jabonosa)",
         "Guante de hilo"
       ],
-      "entrega_curso": [
-        "Cartilla de Polarizado de Vidrio Automotor (PDF)"
-      ]
+      "entrega_curso": ["Cartilla de Polarizado de Vidrio Automotor (PDF)"]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScpvyP8strNE4rtipAU1rr_PlADePVyoAxCcIyqaVaWAQR63g/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 22,
@@ -1130,19 +838,10 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-14",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Miércoles de 09:00 a 11:00",
-      "Viernes de 09:00 a 11:00"
-    ],
-    "localidades": [
-      "Abra Pampa"
-    ],
-    "direcciones": [
-      "Abra Pampa y zonas aledañas"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 09:00 a 11:00", "Viernes de 09:00 a 11:00"],
+    "localidades": ["Abra Pampa"],
+    "direcciones": ["Abra Pampa y zonas aledañas"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -1166,10 +865,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSeMM9ARKxAvKdHIChoBT3Toc1DGYTeLwC72MejuvIvRlNW9kA/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/soldadura_artistica_parte2_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   },
   {
     "id": 23,
@@ -1181,28 +877,18 @@
     "fecha_inicio": "2025-06-05",
     "fecha_fin": "2025-09-25",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Jueves de 10:00 a 13:00 (Comisión 1)",
       "Jueves de 15:00 a 19:00 (Comisión 2)"
     ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Libertador General San Martín"
-    ],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "No se requieren conocimientos previos"
-      ]
+      "otros": ["Fotocopia de DNI", "No se requieren conocimientos previos"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1210,16 +896,11 @@
         "Lapicera",
         "Otros materiales solicitados por el capacitador"
       ],
-      "entrega_curso": [
-        "Material sobre Barista y Arte en Latte (PDF)"
-      ]
+      "entrega_curso": ["Material sobre Barista y Arte en Latte (PDF)"]
     },
     "formulario": "https://forms.gle/link-inscripcion-barista",
     "imagen": "assets/img/cursos2025/barista_latte_2025.webp",
-    "estado": "en_curso",
-    "inscripcion_inicio": "",
-    "inscripcion_fin": "",
-    "cupos": null
+    "estado": "en_curso"
   },
   {
     "id": 24,
@@ -1231,41 +912,22 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-11-12",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Lunes de 16:00 a 18:00",
-      "Miércoles de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Presentar DNI"
-      ]
+      "otros": ["Presentar DNI"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Carpeta",
-        "Lapicera"
-      ],
-      "entrega_curso": [
-        "Cartilla de Informática Básica (PDF)"
-      ]
+      "aporta_estudiante": ["Carpeta", "Lapicera"],
+      "entrega_curso": ["Cartilla de Informática Básica (PDF)"]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdvxm8hnR2bclC_MW-d-8KIvkuyQeePGNOHmdb4OFaH2Lj5XQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/informatica_basica_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 50
+    "estado": "cupo_completo"
   }
 ]
