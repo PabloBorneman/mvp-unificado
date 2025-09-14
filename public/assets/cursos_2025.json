@@ -1261,9 +1261,9 @@
         "Cartilla de Informática Básica (PDF)"
       ]
     },
-    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScSStD362wmIk50L3yKktfCV2X8N2SUm4yhx4Ww3J4QUAmtsg/viewform?usp=dialog",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdvxm8hnR2bclC_MW-d-8KIvkuyQeePGNOHmdb4OFaH2Lj5XQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/informatica_basica_2025.webp",
-    "estado": "inscripcion_abierta",
+    "estado": "cupo_completo",
     "inscripcion_inicio": "2025-09-05T06:00",
     "inscripcion_fin": "2025-09-05T12:00",
     "cupos": 50
