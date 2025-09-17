@@ -136,6 +136,9 @@ const pickCourse = (c) => ({
   formulario: sanitize(c.formulario || ""),
   imagen: sanitize(c.imagen || ""),
   estado: normalizeEstado(c.estado || "proximo"),
+  inscripcion_inicio: c.inscripcion_inicio || "",
+  inscripcion_fin: c.inscripcion_fin || "",
+  cupos: Number.isFinite(c.cupos) ? c.cupos : null,
 });
 
 // similitud Jaccard por palabras para títulos
@@ -252,7 +255,7 @@ MICRO-PLANTILLAS (tono natural, sin mencionar “JSON”)
 • Prefijo cupo_completo (web) — SIN enlaces:
   “En el curso {titulo}, los cupos están completos y no admite nuevas inscripciones.”
 • Resumen cupo_completo (sin enlaces adicionales, tras respuesta afirmativa):
-  “En el curso {titulo}: inicio {fecha_inicio|‘sin fecha confirmada’}; sede {localidades|‘Por ahora no hay sedes confirmadas para este curso.’}; días y horarios {lista_dias_horarios|‘sin horario publicado’}; duración {duracion_total|‘no está publicada’}; requisitos {lista_requisitos|‘no hay requisitos publicados’}; actividades {actividades|‘no hay actividades publicadas’}.”
+  +  “En el curso {titulo}: cupos {cupos|‘sin dato de cupos’}; inicio {fecha_inicio|‘sin fecha confirmada’}; sede {localidades|‘Por ahora no hay sedes confirmadas para este curso.’}; días y horarios {lista_dias_horarios|‘sin horario publicado’}; duración {duracion_total|‘no está publicada’}; requisitos {lista_requisitos|‘no hay requisitos publicados’}; actividades {actividades|‘no hay actividades publicadas’}.”
 • Link/Inscripción (solo si estado = inscripcion_abierta):
   “En el curso {titulo}, te podés inscribir acá: <a href="{formulario}">inscribirte</a>.”
 • Link/Inscripción (si estado = proximo):
@@ -271,7 +274,6 @@ MICRO-PLANTILLAS (tono natural, sin mencionar “JSON”)
   “Por ahora no hay nada confirmado. Mantenete atento a las novedades.”
 • Nuevos cursos:
   “Por ahora no hay nada confirmado. Mantenete atento a las novedades.”
-
 • ¿Dónde se dicta? / Sede
   “En el curso {titulo}, se dicta en: {localidades | ‘Por ahora no hay sedes confirmadas para este curso.’}.”
 • Días y horarios
@@ -302,8 +304,7 @@ REGLA DURA — en_curso / finalizado / cupo_completo
 CONSULTAS POR LOCALIDAD (cuando preguntan “¿Hay cursos en {localidad}?”)
 - Si existen cursos con esa localidad → nombrá sólo esos cursos (título y estado).
 - Si NO existen cursos con esa localidad → respondé EXACTAMENTE:
-  “Por ahora no hay cursos disponibles en {localidad}. Estate atento a próximas novedades.”
-
+  “Actualmente no hay cursos con inscripción abierta en {localidad}, pero estate atento a nuestras redes sociales, donde anunciaremos con anterioridad nuevos cursos a los que podrás postularte.”
 ESTADOS (para preguntas generales)
 1) inscripcion_abierta → se puede usar ficha completa y dar link de inscripción.
 2) ultimos_cupos      → se comporta como inscripción abierta, pero avisando “¡quedan pocos cupos!” y dando link de inscripción.
