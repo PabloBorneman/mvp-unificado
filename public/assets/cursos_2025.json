@@ -9,18 +9,13 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-19",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Lunes y jueves de 15:00 a 18:00",
       "Martes y miércoles de 15:00 a 18:00",
       "Sábados de 09:00 a 13:00 y de 14:00 a 18:00"
     ],
-    "localidades": [
-      "Alto Comedero"
-    ],
+    "localidades": ["Alto Comedero"],
     "direcciones": [
       "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero",
       "C.P.V. Combate – 30 Hectáreas – Alto Comedero"
@@ -48,9 +43,7 @@
         "Gafas",
         "Ropa de trabajo"
       ],
-      "entrega_curso": [
-        "Cartilla digital"
-      ]
+      "entrega_curso": ["Cartilla digital"]
     },
     "formulario": "https://forms.gle/link-de-inscripcion",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_2025.webp",
@@ -69,27 +62,15 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 9:00 a 13:00",
-      "Jueves de 9:00 a 13:00"
-    ],
-    "localidades": [
-      "Alto Comedero"
-    ],
-    "direcciones": [
-      "CIC Che Guevara – Alto Comedero – San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 9:00 a 13:00", "Jueves de 9:00 a 13:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero – San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Fotocopia de DNI",
-        "Predisposición para aprender"
-      ]
+      "otros": ["Fotocopia de DNI", "Predisposición para aprender"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -128,16 +109,9 @@
     "fecha_inicio": "2025-06-03",
     "fecha_fin": "2025-08-31",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Martes de 16:00 a 19:00",
-      "Miércoles de 16:00 a 19:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 16:00 a 19:00", "Miércoles de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
       "Centro Cultural – Ministerio de Desarrollo Humano – San Salvador de Jujuy"
     ],
@@ -145,9 +119,7 @@
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Poseer uso motriz de su cuerpo"
-      ]
+      "otros": ["Poseer uso motriz de su cuerpo"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -202,26 +174,15 @@
     "fecha_inicio": "2025-07-11",
     "fecha_fin": "2025-09-10",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 17:00 a 21:00",
-      "Viernes de 17:00 a 21:00"
-    ],
-    "localidades": [
-      "Perico"
-    ],
-    "direcciones": [
-      "Perico"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 17:00 a 21:00", "Viernes de 17:00 a 21:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Perico"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Ser mayor de 18 años"
-      ]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -253,28 +214,15 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-21",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Lunes de 09:00 a 12:00",
-      "Martes de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "Perico",
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "Perico",
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 09:00 a 12:00", "Martes de 09:00 a 12:00"],
+    "localidades": ["Perico", "San Salvador de Jujuy"],
+    "direcciones": ["Perico", "San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Ser mayor de 18 años"
-      ]
+      "otros": ["Ser mayor de 18 años"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -306,19 +254,10 @@
     "fecha_inicio": "2025-08-01",
     "fecha_fin": "2025-09-30",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Jueves de 16:00 a 19:00",
-      "Viernes de 16:00 a 19:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Jueves de 16:00 a 19:00", "Viernes de 16:00 a 19:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -355,20 +294,14 @@
     "fecha_inicio": "2025-10-01",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3
-    ],
+    "duracion_clase_horas": [3],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00",
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -404,20 +337,14 @@
     "fecha_inicio": "2025-08-01",
     "fecha_fin": "2025-09-30",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3
-    ],
+    "duracion_clase_horas": [3],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00",
       "Martes de 15:00 a 18:00",
       "Miércoles de 15:00 a 18:00"
     ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -455,26 +382,15 @@
     "fecha_inicio": "2025-04-03",
     "fecha_fin": "2025-05-31",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Miércoles de 14:00 a 16:00",
-      "Viernes de 14:00 a 16:00"
-    ],
-    "localidades": [
-      "Monterrico"
-    ],
-    "direcciones": [
-      "Monterrico"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 14:00 a 16:00", "Viernes de 14:00 a 16:00"],
+    "localidades": ["Monterrico"],
+    "direcciones": ["Monterrico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Interés en oficios textiles y producción artesanal"
-      ]
+      "otros": ["Interés en oficios textiles y producción artesanal"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -509,26 +425,15 @@
     "fecha_inicio": "2025-05-08",
     "fecha_fin": "2025-07-04",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Martes de 16:00 a 18:00",
-      "Jueves de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Martes de 16:00 a 18:00", "Jueves de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Interés por los oficios productivos y las economías populares"
-      ]
+      "otros": ["Interés por los oficios productivos y las economías populares"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -562,32 +467,18 @@
     "fecha_inicio": "2025-09-18",
     "fecha_fin": "2025-10-18",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Jueves de 13:00 a 17:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Sin conocimientos previos en electrónica"
-      ]
+      "otros": ["Sin conocimientos previos en electrónica"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Celulares a reparar",
-        "Lapicera",
-        "Cuadernillo"
-      ],
+      "aporta_estudiante": ["Celulares a reparar", "Lapicera", "Cuadernillo"],
       "entrega_curso": [
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
@@ -609,10 +500,7 @@
     "fecha_inicio": "2025-06-19",
     "fecha_fin": "2025-07-19",
     "frecuencia_semanal": 3,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Lunes de 15:00 a 18:00 (C.I.C Che Guevara)",
       "Martes de 15:00 a 18:00 (C.I.C Che Guevara y C.P.V Combate)",
@@ -620,9 +508,7 @@
       "Sábados de 09:00 a 13:00 (C.I.C Che Guevara)",
       "Sábados de 14:00 a 18:00 (C.P.V Combate)"
     ],
-    "localidades": [
-      "Alto Comedero"
-    ],
+    "localidades": ["Alto Comedero"],
     "direcciones": [
       "C.P.V. Combate – 30 Hectáreas – Alto Comedero",
       "C.I.C. Che Guevara – 47 Hectáreas – Alto Comedero"
@@ -634,12 +520,7 @@
       "otros": []
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Guantes",
-        "Gafas",
-        "Ropa de trabajo",
-        "Barbijo"
-      ],
+      "aporta_estudiante": ["Guantes", "Gafas", "Ropa de trabajo", "Barbijo"],
       "entrega_curso": [
         "Materiales para prácticas según disponibilidad en obra"
       ]
@@ -661,19 +542,10 @@
     "fecha_inicio": "2025-05-19",
     "fecha_fin": "2025-07-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Lunes de 08:00 a 12:00",
-      "Viernes de 08:00 a 12:00"
-    ],
-    "localidades": [
-      "San Pedrito"
-    ],
-    "direcciones": [
-      "Centro Vecinal San Francisco de Alava – San Pedrito"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Lunes de 08:00 a 12:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["San Pedrito"],
+    "direcciones": ["Centro Vecinal San Francisco de Alava – San Pedrito"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
@@ -696,11 +568,7 @@
         "Delantal",
         "Cofia"
       ],
-      "entrega_curso": [
-        "Horno",
-        "Anafe",
-        "Recetarios en formato PDF"
-      ]
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
     },
     "formulario": "https://forms.gle/link-inscripcion-panaderia-artesanal",
     "imagen": "assets/img/cursos2025/panaderia_artesanal_2025.webp",
@@ -719,19 +587,10 @@
     "fecha_inicio": "2025-05-21",
     "fecha_fin": "2025-07-18",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Miércoles de 15:00 a 19:00",
-      "Viernes de 08:00 a 12:00"
-    ],
-    "localidades": [
-      "Alto Comedero"
-    ],
-    "direcciones": [
-      "CIC Che Guevara – Alto Comedero"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Miércoles de 15:00 a 19:00", "Viernes de 08:00 a 12:00"],
+    "localidades": ["Alto Comedero"],
+    "direcciones": ["CIC Che Guevara – Alto Comedero"],
     "requisitos": {
       "mayor_18": false,
       "primaria_completa": false,
@@ -752,11 +611,7 @@
         "Delantal",
         "Cofia"
       ],
-      "entrega_curso": [
-        "Horno",
-        "Anafe",
-        "Recetarios en formato PDF"
-      ]
+      "entrega_curso": ["Horno", "Anafe", "Recetarios en formato PDF"]
     },
     "formulario": "https://forms.gle/link-inscripcion-cocina-regional",
     "imagen": "assets/img/cursos2025/cocina_regional_2025.webp",
@@ -775,19 +630,10 @@
     "fecha_inicio": "2025-06-05",
     "fecha_fin": "2025-09-25",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      4
-    ],
-    "dias_horarios": [
-      "Jueves de 09:00 a 13:00",
-      "Jueves de 15:00 a 19:00"
-    ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Municipalidad de Libertador General San Martín"
-    ],
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Jueves de 09:00 a 13:00", "Jueves de 15:00 a 19:00"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Municipalidad de Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
@@ -813,9 +659,7 @@
         "Guantes de nitrilo",
         "Condimentos y hierbas"
       ],
-      "entrega_curso": [
-        "Cartilla impresa (también en PDF vía WhatsApp)"
-      ]
+      "entrega_curso": ["Cartilla impresa (también en PDF vía WhatsApp)"]
     },
     "formulario": "https://forms.gle/link-inscripcion-ayudante-cocina-hoteleria",
     "imagen": "assets/img/cursos2025/ayudante_cocina_hoteleria_2025.webp",
@@ -834,18 +678,10 @@
     "fecha_inicio": "2025-05-06",
     "fecha_fin": "2025-07-22",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2.25
-    ],
-    "dias_horarios": [
-      "Martes y Jueves de 16:00 a 18:15"
-    ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Libertador General San Martín"
-    ],
+    "duracion_clase_horas": [2.25],
+    "dias_horarios": ["Martes y Jueves de 16:00 a 18:15"],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -880,32 +716,18 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-15",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Miércoles de 14:00 a 17:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 14:00 a 17:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Se solicitarán a medida que avance el curso"
-      ],
+      "aporta_estudiante": ["Se solicitarán a medida que avance el curso"],
       "entrega_curso": []
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfKuX5eZ-G4iPi8i4OJJMioa5dTFw-1E0-QIdvGmyyBQgGtRg/viewform?usp=dialog",
@@ -925,33 +747,18 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-12-17",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Lunes de 14:00 a 17:00",
-      "Miércoles de 14:00 a 17:00"
-    ],
-    "localidades": [
-      "Perico"
-    ],
-    "direcciones": [
-      "Oficina de Empleo de la Municipalidad de Perico"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Lunes de 14:00 a 17:00", "Miércoles de 14:00 a 17:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["Oficina de Empleo de la Municipalidad de Perico"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo en inglés"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo en inglés"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Cuaderno",
-        "Lapicera"
-      ],
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
       "entrega_curso": [
         "Cartilla de Inglés Básico para Atención al Cliente en PDF"
       ]
@@ -973,27 +780,15 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-11-12",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Lunes de 16:00 a 18:00",
-      "Miércoles de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "No se requieren estudios previos"
-      ]
+      "otros": ["Fotocopia de DNI", "No se requieren estudios previos"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1024,27 +819,15 @@
     "fecha_inicio": "2025-09-16",
     "fecha_fin": "2025-11-13",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Martes de 18:00 a 21:00",
-      "Jueves de 18:00 a 21:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Martin 260 – San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Martes de 18:00 a 21:00", "Jueves de 18:00 a 21:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Martin 260 – San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Sin conocimiento previo"
-      ]
+      "otros": ["Fotocopia de DNI", "Sin conocimiento previo"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1074,16 +857,9 @@
     "fecha_inicio": "2025-09-19",
     "fecha_fin": "2025-11-30",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      3
-    ],
-    "dias_horarios": [
-      "Viernes de 16:00 a 19:00",
-      "Sábados de 09:00 a 12:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 16:00 a 19:00", "Sábados de 09:00 a 12:00"],
+    "localidades": ["San Salvador de Jujuy"],
     "direcciones": [
       "Clase teórica: San Martín 260 – San Salvador de Jujuy",
       "Clase práctica: Ramírez de Velazco 359 – San Salvador de Jujuy"
@@ -1092,10 +868,7 @@
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "Con o sin experiencia en polarizados"
-      ]
+      "otros": ["Fotocopia de DNI", "Con o sin experiencia en polarizados"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1109,9 +882,7 @@
         "Shampoo (para preparar solución jabonosa)",
         "Guante de hilo"
       ],
-      "entrega_curso": [
-        "Cartilla de Polarizado de Vidrio Automotor (PDF)"
-      ]
+      "entrega_curso": ["Cartilla de Polarizado de Vidrio Automotor (PDF)"]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScpvyP8strNE4rtipAU1rr_PlADePVyoAxCcIyqaVaWAQR63g/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/polarizado_automotor_2025.webp",
@@ -1130,19 +901,10 @@
     "fecha_inicio": "2025-09-17",
     "fecha_fin": "2025-11-14",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Miércoles de 09:00 a 11:00",
-      "Viernes de 09:00 a 11:00"
-    ],
-    "localidades": [
-      "Abra Pampa"
-    ],
-    "direcciones": [
-      "Abra Pampa y zonas aledañas"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Miércoles de 09:00 a 11:00", "Viernes de 09:00 a 11:00"],
+    "localidades": ["Abra Pampa"],
+    "direcciones": ["Abra Pampa y zonas aledañas"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
@@ -1181,28 +943,18 @@
     "fecha_inicio": "2025-06-05",
     "fecha_fin": "2025-09-25",
     "frecuencia_semanal": 1,
-    "duracion_clase_horas": [
-      3,
-      4
-    ],
+    "duracion_clase_horas": [3, 4],
     "dias_horarios": [
       "Jueves de 10:00 a 13:00 (Comisión 1)",
       "Jueves de 15:00 a 19:00 (Comisión 2)"
     ],
-    "localidades": [
-      "Libertador General San Martín"
-    ],
-    "direcciones": [
-      "Libertador General San Martín"
-    ],
+    "localidades": ["Libertador General San Martín"],
+    "direcciones": ["Libertador General San Martín"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": false,
       "secundaria_completa": false,
-      "otros": [
-        "Fotocopia de DNI",
-        "No se requieren conocimientos previos"
-      ]
+      "otros": ["Fotocopia de DNI", "No se requieren conocimientos previos"]
     },
     "materiales": {
       "aporta_estudiante": [
@@ -1210,9 +962,7 @@
         "Lapicera",
         "Otros materiales solicitados por el capacitador"
       ],
-      "entrega_curso": [
-        "Material sobre Barista y Arte en Latte (PDF)"
-      ]
+      "entrega_curso": ["Material sobre Barista y Arte en Latte (PDF)"]
     },
     "formulario": "https://forms.gle/link-inscripcion-barista",
     "imagen": "assets/img/cursos2025/barista_latte_2025.webp",
@@ -1231,35 +981,19 @@
     "fecha_inicio": "2025-09-15",
     "fecha_fin": "2025-11-12",
     "frecuencia_semanal": 2,
-    "duracion_clase_horas": [
-      2
-    ],
-    "dias_horarios": [
-      "Lunes de 16:00 a 18:00",
-      "Miércoles de 16:00 a 18:00"
-    ],
-    "localidades": [
-      "San Salvador de Jujuy"
-    ],
-    "direcciones": [
-      "San Salvador de Jujuy"
-    ],
+    "duracion_clase_horas": [2],
+    "dias_horarios": ["Lunes de 16:00 a 18:00", "Miércoles de 16:00 a 18:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
       "mayor_18": true,
       "primaria_completa": true,
       "secundaria_completa": true,
-      "otros": [
-        "Presentar DNI"
-      ]
+      "otros": ["Presentar DNI"]
     },
     "materiales": {
-      "aporta_estudiante": [
-        "Carpeta",
-        "Lapicera"
-      ],
-      "entrega_curso": [
-        "Cartilla de Informática Básica (PDF)"
-      ]
+      "aporta_estudiante": ["Carpeta", "Lapicera"],
+      "entrega_curso": ["Cartilla de Informática Básica (PDF)"]
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdvxm8hnR2bclC_MW-d-8KIvkuyQeePGNOHmdb4OFaH2Lj5XQ/viewform?usp=dialog",
     "imagen": "assets/img/cursos2025/informatica_basica_2025.webp",
@@ -1267,5 +1001,117 @@
     "inscripcion_inicio": "2025-09-05T06:00",
     "inscripcion_fin": "2025-09-05T12:00",
     "cupos": 50
+  },
+  {
+    "id": 25,
+    "titulo": "Refrigeración de Heladeras Familiares en San Pedro",
+    "descripcion_breve": "Capacitación práctica para instalación, mantenimiento preventivo y reparación básica de heladeras familiares.",
+    "descripcion_completa": "La capacitación en este oficio abre posibilidades concretas de inserción laboral independiente, trabajo por cuenta propia o inserción en empresas de servicios técnicos. Brinda a los participantes los conocimientos y habilidades prácticas necesarias para realizar tareas de instalación, mantenimiento preventivo y reparación básica de heladeras familiares, favoreciendo su inserción laboral en el sector de servicios técnicos. Se trabajan fundamentos de refrigeración, componentes principales, instalación correcta, mantenimiento preventivo, diagnóstico de fallas comunes, resolución de problemas básicos y prácticas integradoras con equipos reales.",
+    "actividades": "Clases teórico-prácticas con diagnóstico, instalación, mantenimiento preventivo y resolución de fallas comunes en heladeras familiares. Incluye prácticas integradoras, estudio de casos y orientación laboral.",
+    "duracion_total": "2 meses (8 clases)",
+    "fecha_inicio": "2025-10-03",
+    "fecha_fin": "2025-11-28",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Sábados de 15:00 a 19:00"],
+    "localidades": ["La Esperanza – San Pedro de Jujuy"],
+    "direcciones": ["La Esperanza – San Pedro de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Conocimientos previos sobre electricidad"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Material para tomar apuntes del marco teórico",
+        "Material para realizar las prácticas profesionalizantes"
+      ],
+      "entrega_curso": ["Certificado de la capacitación"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-refrigeracion-heladeras",
+    "imagen": "assets/img/cursos2025/refrigeracion_heladeras_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-29T06:00",
+    "inscripcion_fin": "",
+    "cupos": 40
+  },
+  {
+    "id": 26,
+    "titulo": "Diseño de Modas",
+    "descripcion_breve": "Curso orientado a la confección de prendas urbanas y de gala para el grupo familiar.",
+    "descripcion_completa": "Este curso está orientado a personas interesadas en el diseño y confección de prendas de estilo urbano casual y gala para el grupo familiar. Los alumnos aprenderán a medir y sacar medidas, armar patronaje y confección de distintas prendas para ambos sexos. Se realizarán prendas como falda escolar, blusas para damas y niñas, suéter de damas, polleras tubo y campana, vestidos de gala y para nenas, conjuntos de grafa (camisa y pantalón para hombre) y blazer.",
+    "actividades": "Confección práctica de prendas variadas: faldas, blusas, suéter, vestidos de gala y conjuntos para hombres. Trabajo paso a paso en patronaje, corte y costura de cada prenda.",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-10-03",
+    "fecha_fin": "2025-12-26",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 14:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpeta",
+        "Lapicera",
+        "Regla",
+        "Cinta métrica",
+        "Tiza para telas",
+        "Tijera para papel",
+        "Tijera para tela",
+        "Papel madera",
+        "Telas para cada prenda",
+        "Elásticos partidos",
+        "Elástico común",
+        "Puntilla"
+      ],
+      "entrega_curso": ["Cartilla en Diseño de Moda en PDF"]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-diseno-moda",
+    "imagen": "assets/img/cursos2025/diseño_moda_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-30T06:00",
+    "inscripcion_fin": "",
+    "cupos": 50
+  },
+  {
+    "id": 27,
+    "titulo": "Capacitación Segura de Hidrogrúas e Hidroelevadores en Perico",
+    "descripcion_breve": "Formación teórico-práctica en operación segura de hidrogrúas e hidroelevadores con enfoque en seguridad laboral.",
+    "descripcion_completa": "Capacitación teórico-práctica en operación segura de hidrogrúas e hidroelevadores, con enfoque en seguridad laboral y uso responsable de equipos. El curso está dirigido a jóvenes y adultos que deseen formarse en la operación y mantenimiento de estos equipos. A lo largo de la capacitación se enseñará a utilizar correctamente los equipos de izaje, aplicar normas de seguridad, identificar riesgos y manejar elementos de protección personal (EPP). La propuesta combina teoría y práctica: clases dinámicas sobre seguridad y normativa, presentación de componentes y funciones de los equipos, demostraciones con EPP, ejercicios prácticos supervisados con maquinaria y evaluación teórico-práctica final.",
+    "actividades": "Clases teóricas sobre seguridad y normativa, presentación de componentes, demostración de EPP, prácticas supervisadas con maquinaria y evaluación final.",
+    "duracion_total": "72 horas reloj (3 meses, 6 horas semanales)",
+    "fecha_inicio": "2025-10-01",
+    "fecha_fin": "2025-10-31",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 18:00 a 21:00", "Viernes de 18:00 a 21:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["CIC 2 – Perico"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": true,
+      "otros": ["Carnet de conducir particular"]
+    },
+    "materiales": {
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
+      "entrega_curso": [
+        "Cartillas de apoyo para el aprendizaje",
+        "Cartilla de Capacitación Segura de Hidrogrúas e Hidroelevadores en PDF"
+      ]
+    },
+    "formulario": "https://forms.gle/link-inscripcion-hidrogruas-hidroelevadores",
+    "imagen": "assets/img/cursos2025/hidrogruas_hidroelevadores_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-10-01T06:00",
+    "inscripcion_fin": "",
+    "cupos": 10
   }
 ]

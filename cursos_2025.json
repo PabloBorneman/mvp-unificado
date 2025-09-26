@@ -407,5 +407,117 @@
     "inscripcion_inicio": "2025-09-05T06:00",
     "inscripcion_fin": "2025-09-05T12:00",
     "cupos": 50
+  },
+  {
+    "id": 25,
+    "titulo": "Refrigeración de Heladeras Familiares en San Pedro",
+    "descripcion_breve": "Capacitación práctica para instalación, mantenimiento preventivo y reparación básica de heladeras familiares.",
+    "descripcion_completa": "La capacitación en este oficio abre posibilidades concretas de inserción laboral independiente, trabajo por cuenta propia o inserción en empresas de servicios técnicos. Brinda a los participantes los conocimientos y habilidades prácticas necesarias para realizar tareas de instalación, mantenimiento preventivo y reparación básica de heladeras familiares, favoreciendo su inserción laboral en el sector de servicios técnicos. Se trabajan fundamentos de refrigeración, componentes principales, instalación correcta, mantenimiento preventivo, diagnóstico de fallas comunes, resolución de problemas básicos y prácticas integradoras con equipos reales.",
+    "actividades": "Clases teórico-prácticas con diagnóstico, instalación, mantenimiento preventivo y resolución de fallas comunes en heladeras familiares. Incluye prácticas integradoras, estudio de casos y orientación laboral.",
+    "duracion_total": "2 meses (8 clases)",
+    "fecha_inicio": "2025-10-03",
+    "fecha_fin": "2025-11-28",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [4],
+    "dias_horarios": ["Sábados de 15:00 a 19:00"],
+    "localidades": ["La Esperanza – San Pedro de Jujuy"],
+    "direcciones": ["La Esperanza – San Pedro de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": true,
+      "secundaria_completa": true,
+      "otros": ["Conocimientos previos sobre electricidad"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Material para tomar apuntes del marco teórico",
+        "Material para realizar las prácticas profesionalizantes"
+      ],
+      "entrega_curso": ["Certificado de la capacitación"]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/refrigeracion_heladeras_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-29T06:00",
+    "inscripcion_fin": "",
+    "cupos": 40
+  },
+  {
+    "id": 26,
+    "titulo": "Diseño de Modas",
+    "descripcion_breve": "Curso orientado a la confección de prendas urbanas y de gala para el grupo familiar.",
+    "descripcion_completa": "Este curso está orientado a personas interesadas en el diseño y confección de prendas de estilo urbano casual y gala para el grupo familiar. Los alumnos aprenderán a medir y sacar medidas, armar patronaje y confección de distintas prendas para ambos sexos. Se realizarán prendas como falda escolar, blusas para damas y niñas, suéter de damas, polleras tubo y campana, vestidos de gala y para nenas, conjuntos de grafa (camisa y pantalón para hombre) y blazer.",
+    "actividades": "Confección práctica de prendas variadas: faldas, blusas, suéter, vestidos de gala y conjuntos para hombres. Trabajo paso a paso en patronaje, corte y costura de cada prenda.",
+    "duracion_total": "3 meses",
+    "fecha_inicio": "2025-10-03",
+    "fecha_fin": "2025-12-26",
+    "frecuencia_semanal": 1,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Viernes de 14:00 a 17:00"],
+    "localidades": ["San Salvador de Jujuy"],
+    "direcciones": ["San Salvador de Jujuy"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": false,
+      "otros": ["Fotocopia de DNI"]
+    },
+    "materiales": {
+      "aporta_estudiante": [
+        "Carpeta",
+        "Lapicera",
+        "Regla",
+        "Cinta métrica",
+        "Tiza para telas",
+        "Tijera para papel",
+        "Tijera para tela",
+        "Papel madera",
+        "Telas para cada prenda",
+        "Elásticos partidos",
+        "Elástico común",
+        "Puntilla"
+      ],
+      "entrega_curso": ["Cartilla en Diseño de Moda en PDF"]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/diseño_moda_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-30T06:00",
+    "inscripcion_fin": "",
+    "cupos": 50
+  },
+  {
+    "id": 27,
+    "titulo": "Capacitación Segura de Hidrogrúas e Hidroelevadores en Perico",
+    "descripcion_breve": "Formación teórico-práctica en operación segura de hidrogrúas e hidroelevadores con enfoque en seguridad laboral.",
+    "descripcion_completa": "Capacitación teórico-práctica en operación segura de hidrogrúas e hidroelevadores, con enfoque en seguridad laboral y uso responsable de equipos. El curso está dirigido a jóvenes y adultos que deseen formarse en la operación y mantenimiento de estos equipos. A lo largo de la capacitación se enseñará a utilizar correctamente los equipos de izaje, aplicar normas de seguridad, identificar riesgos y manejar elementos de protección personal (EPP). La propuesta combina teoría y práctica: clases dinámicas sobre seguridad y normativa, presentación de componentes y funciones de los equipos, demostraciones con EPP, ejercicios prácticos supervisados con maquinaria y evaluación teórico-práctica final.",
+    "actividades": "Clases teóricas sobre seguridad y normativa, presentación de componentes, demostración de EPP, prácticas supervisadas con maquinaria y evaluación final.",
+    "duracion_total": "72 horas reloj (3 meses, 6 horas semanales)",
+    "fecha_inicio": "2025-10-01",
+    "fecha_fin": "2025-10-31",
+    "frecuencia_semanal": 2,
+    "duracion_clase_horas": [3],
+    "dias_horarios": ["Miércoles de 18:00 a 21:00", "Viernes de 18:00 a 21:00"],
+    "localidades": ["Perico"],
+    "direcciones": ["CIC 2 – Perico"],
+    "requisitos": {
+      "mayor_18": true,
+      "primaria_completa": false,
+      "secundaria_completa": true,
+      "otros": ["Carnet de conducir particular"]
+    },
+    "materiales": {
+      "aporta_estudiante": ["Cuaderno", "Lapicera"],
+      "entrega_curso": [
+        "Cartillas de apoyo para el aprendizaje",
+        "Cartilla de Capacitación Segura de Hidrogrúas e Hidroelevadores en PDF"
+      ]
+    },
+    "formulario": "",
+    "imagen": "assets/img/cursos2025/hidrogruas_hidroelevadores_2025.webp",
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-10-01T06:00",
+    "inscripcion_fin": "",
+    "cupos": 10
   }
 ]
