@@ -468,7 +468,7 @@
     "fecha_fin": "2025-10-18",
     "frecuencia_semanal": 1,
     "duracion_clase_horas": [4],
-    "dias_horarios": ["Jueves de 13:00 a 17:00"],
+    "dias_horarios": ["Viernes de 19:00 a 22:00"],
     "localidades": ["San Salvador de Jujuy"],
     "direcciones": ["San Salvador de Jujuy"],
     "requisitos": {
@@ -483,12 +483,12 @@
         "Cartilla con el desarrollo de cada clase en formato pdf"
       ]
     },
-    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLScxigARmC9m8LFPe9MzHUfBmcK3G6WGyShne4d1uElFBJQPgA/viewform?usp=dialog",
+    "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSephjfTnrHlkE-EVHYu5_9_oMd-JAgYNcIiPp5842FaDiqtfA/viewform?usp=header",
     "imagen": "assets/img/cursos2025/reparacion_celulares_2025.webp",
-    "estado": "cupo_completo",
-    "inscripcion_inicio": "2025-09-05T06:00",
-    "inscripcion_fin": "2025-09-05T12:00",
-    "cupos": 20
+    "estado": "proximo",
+    "inscripcion_inicio": "2025-09-30T06:00",
+    "inscripcion_fin": "",
+    "cupos": 14
   },
   {
     "id": 12,
