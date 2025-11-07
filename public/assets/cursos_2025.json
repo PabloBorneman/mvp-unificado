@@ -1031,7 +1031,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdKUtgqPCcFg6DMO4hvp1lWnuX_RDy0VTDcarkFm87_eLf69g/viewform?usp=header",
     "imagen": "assets/img/cursos2025/refrigeracion_heladeras_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-09-29T06:00",
     "inscripcion_fin": "",
     "cupos": 40
@@ -1191,7 +1191,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdsmcje4qqzACSmY32XL0PHDgQTAvVQXesViVgHJEdvkHqo0w/viewform?usp=header",
     "imagen": "assets/img/cursos2025/barista_latte_ssj_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-04T22:00",
     "inscripcion_fin": "2025-10-05T22:00",
     "cupos": 100
@@ -1237,7 +1237,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfJN0fr0WxCE7gJiMz5zF6YM5Vj7WiH3QqVEn3O2IH9KzZTYg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/albanileria_basica_mujeres_la_quiaca_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -1276,7 +1276,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSdAzSvYAdQ6LMLdUIKT3HugMKYLEluEIa8VLX87G-3Mxrgw0Q/viewform?usp=header",
     "imagen": "assets/img/cursos2025/soldadura_basica_la_quiaca_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -1321,7 +1321,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSf-SRz4Tu_S8-Bp-ydmj1dK6X4qrJ-6O5EfdeqkLWF0q0BCjQ/viewform?usp=header",
     "imagen": "assets/img/cursos2025/maquillaje_social_humahuaca_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -1369,7 +1369,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfLmrJ23Q_8hI8mpqXKjEeseuN4eOtBzo5mEarL93aq8J8a8A/viewform?usp=header",
     "imagen": "assets/img/cursos2025/maquillaje_artistico_pintacaritas_humahuaca_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
@@ -1417,7 +1417,7 @@
     },
     "formulario": "https://docs.google.com/forms/d/e/1FAIpQLSfElCEkZhTVGl4YgTkz1OT1S1myRuTCsE6T47czIbZ3QmHBsg/viewform?usp=header",
     "imagen": "assets/img/cursos2025/cocina_regional_hotelera_humahuaca_2025.webp",
-    "estado": "Cursando",
+    "estado": "en_curso",
     "inscripcion_inicio": "2025-10-07T14:00",
     "inscripcion_fin": "",
     "cupos": 15
